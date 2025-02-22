@@ -31,23 +31,28 @@ const Hero: React.FC<HeroProps> = () => {
             <div className="relative min-h-screen bg-gradient-to-b from-black via-gray-900 to-black overflow-hidden">
                 <div className="absolute top-8 left-0 right-0 z-20 text-center">
                     <motion.h1
-                        className="text-6xl font-bold text-white mb-4"
+                        className="text-9xl font-extrabold font-serif text-transparent bg-clip-text bg-gradient-to-r from-orange-800 via-orange-500 to-yellow-300 animate-[color-animation]"
                         initial={{ opacity: 0, y: -20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
                     >
-                        Hello Ansh
+                        TECHFLUENCE
                     </motion.h1>
-                    <motion.p
-                        className="text-xl text-gray-300 max-w-2xl mx-auto px-4"
-                        initial={{ opacity: 0, y: -10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8, delay: 0.2 }}
-                    >
-                        Transforming ideas into extraordinary digital experiences
-                    </motion.p>
+
                 </div>
                 <style jsx>{`
+                     @layer utilities {
+                        @keyframes color-animation {
+                            0% { background-position: 0% 50%; }
+                            50% { background-position: 100% 50%; }
+                            100% { background-position: 0% 50%; }
+                        }
+                        .animate-[color-animation] {
+                            background-size: 300%;
+                            animation: color-animation 1s infinite ease-in-out;
+                        }
+                    }
+
                     @keyframes marquee {
                         0% {
                             transform: translateX(0);
@@ -144,6 +149,13 @@ const Hero: React.FC<HeroProps> = () => {
                         </svg>
                     </div>
                     <div className="h-24 bg-gradient-to-t from-orange-500/20 to-transparent" />
+                </div>
+                <div className="absolute bottom-10 left-10 p-7 border border-orange-400 bg-transparent text-white rounded-lg shadow-lg w-64">
+                    <p className="text-xl font-bold">North India’s biggest tech event, bringing innovation, insights, and industry leaders together</p>
+                </div>
+
+                <div className="absolute bottom-10 right-10 border  border-orange-400 p-7 bg-transparent text-white rounded-lg shadow-lg w-64">
+                    <p className="text-xl font-bold">Enhance your event experience with seamless guest check-ins and real-time tech-driven insights.</p>
                 </div>
 
                 {/* 3D Robot Model */}
