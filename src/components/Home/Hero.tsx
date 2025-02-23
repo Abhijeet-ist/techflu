@@ -3,7 +3,7 @@
 import React from "react";
 import Spline from "@splinetool/react-spline";
 import { motion } from "framer-motion";
-import { GoogleGeminiEffectDemo } from "./Geffect";
+// import { GoogleGeminiEffectDemo } from "./Geffect";
 
 interface HeroProps {
     // Add any props here if you plan to pass them
