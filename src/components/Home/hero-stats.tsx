@@ -4,12 +4,11 @@ import { Card } from "@/components/ui/card";
 import { Spotlight } from "@/components/ui/spotlight";
 import { cn } from "@/lib/utils";
 import { Activity, MessageSquare, Users } from "lucide-react";
-
 const stats = [
     {
         icon: Users,
         title: "Event Attendees",
-        value: "500+",
+        value: "1500+",
         description: "People joined our events",
     },
     {
@@ -23,6 +22,12 @@ const stats = [
         title: "Events Organized",
         value: "30+",
         description: "Successful tech events",
+    },
+    {
+        icon: Users,
+        title: "Speakers",
+        value: "16",
+        description: "Events Speakers",
     },
 ];
 
