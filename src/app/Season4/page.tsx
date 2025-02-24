@@ -81,15 +81,15 @@ function SpeakerCard({ name, title, quote, image, stats, hasBorder }: SpeakerPro
 export default function SpeakersPage() {
   const speakers = [
     {
-      name: "Saumya Singh",
-      title: "Software Engineer, YouTuber, Public Speaker",
+      name: "Abhishek Ranjan",
+      title: "Director of Engineering, @ apna| AI,Machine Learning, Distributed Systems",
       quote: "This experience truly exceeded my expectations—every detail was thoughtfully curated!",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-02-24%2021-52-26-pkxB75BJpgfyY9voyr8vgBb8XFSxV7.png",
       stats: {
         linkedin: {
-          followers: "235k",
-          url: "https://linkedin.com/in/saumya-singh",
+          followers: "6225",
+          url: "https://linkedin.com/in/abhishek-ranjan-engg",
         },
         instagram: {
           followers: "413k",
@@ -103,15 +103,15 @@ export default function SpeakersPage() {
       hasBorder: true,
     },
     {
-      name: "Hine Arora",
-      title: "Career Development Coach , Public Speaker",
+      name: "Shivani Gera",
+      title: "Personal Finance Contant Creator",
       quote: "The hospitality here made me feel like I was at home, but with a touch of luxury!",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-02-24%2021-52-26-pkxB75BJpgfyY9voyr8vgBb8XFSxV7.png",
       stats: {
         linkedin: {
-          followers: "252k",
-          url: "https://linkedin.com/in/hine-arora",
+          followers: "133k",
+          url: "https://linkedin.com/in/shivanigera30/",
         },
         instagram: {
           followers: "74k",
@@ -121,23 +121,89 @@ export default function SpeakersPage() {
       hasBorder: false,
     },
     {
-      name: "Nishant Chahar",
-      title: "Founder of Tayyari | Ex. Microsoft",
+      name: "Shivangi Narula",
+      title: "Founder of Skilldify",
       quote: "A perfect blend of comfort and elegance—this stay will be unforgettable!",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-02-24%2021-52-26-pkxB75BJpgfyY9voyr8vgBb8XFSxV7.png",
       stats: {
         linkedin: {
-          followers: "496k",
-          url: "https://linkedin.com/in/nishant-chahar",
+          followers: "219k",
+          url: "https://linkedin.com/in/shivanginarula/",
         },
         instagram: {
-          followers: "181k",
-          url: "https://instagram.com/nishant.chahar",
+          followers: "296k",
+          url: "https://instagram.com/shivanginarula.in",
         },
         youtube: {
-          followers: "476k",
-          url: "https://youtube.com/@nishant-chahar",
+          followers: "3.22k",
+          url: "https://youtube.com/@shivanginarula495",
+        },
+      },
+      hasBorder: true,
+    },
+    {
+      name: "Rocky Bhatia",
+    title: "Top 1% on LinkedIn | Architect @ Adobe| 350k+Followers Across Social Media",
+      quote: "A perfect blend of comfort and elegance—this stay will be unforgettable!",
+      image:
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-02-24%2021-52-26-pkxB75BJpgfyY9voyr8vgBb8XFSxV7.png",
+      stats: {
+        linkedin: {
+          followers: "170k",
+          url: "https://linkedin.com/in/rocky-bhatia-a4801010/",
+        },
+        instagram: {
+          followers: "150k",
+          url: "https://instagram.com/learnwithrockyubhatia/",
+        },
+        youtube: {
+          followers: "6.29k",
+          url: "https://youtube.com/@learnwithrockyubhatia",
+        },
+      },
+      hasBorder: true,
+    },
+    {
+      name: "Rajya Vardhan Mishra",
+      title: "Engineering Leader @ Google | Mentored 300+ Software Engineers|Cornell University",
+      quote: "A perfect blend of comfort and elegance—this stay will be unforgettable!",
+      image:
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-02-24%2021-52-26-pkxB75BJpgfyY9voyr8vgBb8XFSxV7.png",
+      stats: {
+        linkedin: {
+          followers: "25k",
+          url: "https://linkedin.com/in/rajya-vardhan/",
+        },
+        // instagram: {
+        //   followers: "296k",
+        //   url: "https://instagram.com/shivanginarula.in",
+        // },
+        // youtube: {
+        //   followers: "3.22k",
+        //   url: "https://youtube.com/@shivanginarula495",
+        // },
+      },
+      hasBorder: true,
+    },
+    {
+      name: "Ajay Suneja",
+      title: "Frontend Developer at @adidas | Ex-ITC infotech | Ex-Coforge (NIIT)|GDSC'23&Postman'23Speaker",
+      quote: "A perfect blend of comfort and elegance—this stay will be unforgettable!",
+      image:
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-02-24%2021-52-26-pkxB75BJpgfyY9voyr8vgBb8XFSxV7.png",
+      stats: {
+        linkedin: {
+          followers: "73k",
+          url: "https://linkedin.com/in/ajaysuneja/",
+        },
+        instagram: {
+          followers: "141k",
+          url: "https://instagram.com/sunejaajay",
+        },
+        youtube: {
+          followers: "528k",
+          url: "https://youtube.com/@TechnicalSuneja",
         },
       },
       hasBorder: true,

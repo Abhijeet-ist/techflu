@@ -29,10 +29,10 @@ function Marquee({ items }: MarqueeProps) {
 
 export default function GallerySection() {
     const galleryImages = [
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-02-24%2022-09-27-t9djhBhUtTpDLougyFNQaNnhcY8e1T.png",
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-02-24%2022-09-27-t9djhBhUtTpDLougyFNQaNnhcY8e1T.png",
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-02-24%2022-09-27-t9djhBhUtTpDLougyFNQaNnhcY8e1T.png",
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-02-24%2022-09-27-t9djhBhUtTpDLougyFNQaNnhcY8e1T.png",
+        "/IMG_9976.JPG",
+        "/IMG_9972.JPG",
+        "/img5c.jpeg",
+        "/Tech3.jpeg",
     ]
 
     const countries = [
@@ -70,7 +70,7 @@ export default function GallerySection() {
                 <div className="grid md:grid-cols-2 gap-8 mb-12">
                     <div className="relative h-[400px]">
                         <Image
-                            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-02-24%2022-09-27-t9djhBhUtTpDLougyFNQaNnhcY8e1T.png"
+                            src="/Img3.jpeg"
                             alt="Vivek Sridhar speaking at TechFluence"
                             fill
                             className="object-cover rounded-lg"

@@ -75,7 +75,7 @@ export function TimelineDemo() {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
-                            src="/S2_c.jpeg"
+                            src="/IMG_2128.JPG"
                             alt="hero template"
                             width={300}
                             height={300}
@@ -95,49 +95,49 @@ export function TimelineDemo() {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
-                            src="/s3_1c.jpeg"
+                            src="/2T8A3007.JPG"
                             alt="hero template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
                         />
                         <Image
-                            src="/s3_2c.jpeg"
+                            src="/s3_6c.jpeg"
                             alt="feature template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
                         />
                         <Image
-                            src="/s3_3c.jpeg"
+                            src="/tech3.jpeg"
                             alt="feature template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
                         />
                         <Image
-                            src="/s3_4c.jpeg"
+                            src="/Tech3 (3).jpeg"
                             alt="bento template"
                             width={500}
                             height={100}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
                         />
                         <Image
-                            src="/s3_5c.jpeg"
+                            src="/TEC3.jpeg"
                             alt="cards template"
                             width={500}
                             height={200}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
                         />
                         <Image
-                            src="/s3_6c.jpeg"
+                            src="/TEch3 (2).jpeg"
                             alt="cards template"
                             width={500}
                             height={200}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
                         />
                         <Image
-                            src="/s3_7c.jpeg"
+                            src="/s3_3c.jpeg"
                             alt="cards template"
                             width={500}
                             height={200}
