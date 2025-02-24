@@ -31,14 +31,13 @@ const Hero: React.FC<HeroProps> = () => {
             <div className="relative min-h-screen bg-gradient-to-b from-black via-gray-900 to-black overflow-hidden">
                 <div className="absolute top-8 left-0 right-0 z-20 text-center">
                     <motion.h1
-                        className="text-9xl font-extrabold font-serif text-transparent bg-clip-text bg-gradient-to-r from-orange-800 via-orange-500 to-yellow-300 animate-[color-animation]"
+                        className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-extrabold font-serif text-transparent bg-clip-text bg-gradient-to-r from-orange-800 via-orange-500 to-yellow-300 animate-[color-animation]"
                         initial={{ opacity: 0, y: -20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 3 }}
                     >
                         TECHFLUENCE
                     </motion.h1>
-
                 </div>
                 <style jsx>{`
                      @layer utilities {
@@ -95,7 +94,7 @@ const Hero: React.FC<HeroProps> = () => {
                                     key={image.id}
                                     src={image.src}
                                     alt={image.alt}
-                                    className="w-80 h-80 rounded-xl object-cover shadow-2xl shadow-orange-500/20 transition-transform"
+                                    className="w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 rounded-xl object-cover shadow-2xl shadow-orange-500/20 transition-transform"
                                     whileHover={{
                                         scale: 1.15,
                                         zIndex: 20,
@@ -117,7 +116,7 @@ const Hero: React.FC<HeroProps> = () => {
                                     key={`dup-${image.id}`}
                                     src={image.src}
                                     alt={image.alt}
-                                    className="w-80 h-80 rounded-xl object-cover shadow-2xl shadow-orange-500/20 transition-transform"
+                                    className="w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 rounded-xl object-cover shadow-2xl shadow-orange-500/20 transition-transform"
                                     whileHover={{
                                         scale: 1.15,
                                         zIndex: 20,
@@ -150,6 +149,7 @@ const Hero: React.FC<HeroProps> = () => {
                     </div>
                     <div className="h-24 bg-gradient-to-t from-orange-500/20 to-transparent" />
                 </div>
+                <div className="absolute bottom-10 left-10 p-7 border border-orange-400 bg-orange-500/20 backdrop-blur-md text-white rounded-lg shadow-lg w-64"></div>
                 <div className="absolute bottom-10 left-10 p-7 border border-orange-400 bg-orange-500/20 backdrop-blur-md text-white rounded-lg shadow-lg w-64">
                     <p className="text-xl font-bold">North India’s biggest tech event, bringing innovation, insights, and industry leaders together</p>
                 </div>

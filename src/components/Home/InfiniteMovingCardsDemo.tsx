@@ -1,48 +1,240 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
-import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
+import React, { useState } from 'react';
+import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
+import { motion } from "framer-motion";
 
-export function InfiniteMovingCardsDemo() {
+const Loop = () => {
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
+  const items = [
+    {
+      quote: "Techfluence 1 gave me the perfect platform to network and learn cutting-edge tech trends!",
+      name: "Abhijeet Kumar",
+      title: "Techfluence 1",
+      photo: "/loop/abhi.jpeg",
+    },
+    {
+      quote: "The hands-on workshops at Techfluence 1 boosted my coding skills and confidence.",
+      name: "Rohit",
+      title: "Techfluence 1",
+      photo: "/loop/rohit.jpeg",
+    },
+    {
+      quote: "A game-changing event where I got to connect with industry leaders and fellow tech enthusiasts.",
+      name: "Manisha Chaudhary",
+      title: "Techfluence 1",
+      photo: "/loop/manisha.jpeg",
+    },
+    {
+      quote: "Techfluence 1 was packed with insightful sessions that helped me improve my development strategies!",
+      name: "Somesh Biswal",
+      title: "Techfluence 1",
+      photo: "/loop/sanu.jpeg",
+    },
+  ];
+
+  const items2 = [
+    {
+      quote: "Techfluence 2 deepened my understanding of AI and modern web technologies.",
+      name: "Nisita Subramani",
+      title: "Techfluence 2",
+      photo: "/loop/nishita.jpeg",
+    },
+    {
+      quote: "The live coding challenges at Techfluence 2 helped me sharpen my problem-solving skills!",
+      name: "Punit Kumar",
+      title: "Techfluence 2",
+      photo: "/loop/punit.jpeg",
+    },
+    {
+      quote: "From expert talks to hands-on projects, Techfluence 2 was an incredible learning experience!",
+      name: "Himant Yadav",
+      title: "Techfluence 2",
+      photo: "/loop/himant.jpeg",
+    },
+    {
+      quote: "The networking opportunities at Techfluence 2 helped me connect with amazing mentors.",
+      name: "Kushagra Chaudhary",
+      title: "Techfluence 2",
+      photo: "/loop/kushagra.jpeg",
+    },
+    {
+      quote: "Techfluence 2 introduced me to emerging trends in cloud computing and cybersecurity.",
+      name: "Nainsi Sharma",
+      title: "Techfluence 2",
+      photo: "/loop/nainsi.jpeg",
+    },
+  ];
+
+  const items3 = [
+    {
+      quote: "Techfluence 3 was a game-changer! I built my first AI project with real-world applications.",
+      name: "Subham Kumar",
+      title: "Techfluence 3",
+      photo: "/loop/subham.jpeg",
+    },
+    {
+      quote: "The hackathon at Techfluence 3 pushed my creativity and helped me develop my teamwork skills.",
+      name: "Himant Yadav",
+      title: "Techfluence 3",
+      photo: "/loop/himant.jpeg",
+    },
+    {
+      quote: "Techfluence 3 gave me access to exclusive sessions on blockchain and Web3 technologies.",
+      name: "Sriti Sareen",
+      title: "Techfluence 3",
+      photo: "/loop/sriti.jpeg",
+    },
+    {
+      quote: "This event transformed my career path! I learned about new tech stacks and got inspired by industry leaders.",
+      name: "Radha Raman",
+      title: "Techfluence 3",
+      photo: "/loop/radha.jpeg",
+    },
+  ];
+
+  const letterContainer = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.05,
+        delayChildren: 0.3
+      }
+    }
+  };
+
+  const letterAnimation = {
+    hidden: { y: 20, opacity: 0 },
+    show: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        type: "spring",
+        stiffness: 200,
+        damping: 10
+      }
+    }
+  };
+
   return (
-    <div className="h-[30rem] rounded-md flex flex-col antialiased bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-      <InfiniteMovingCards
-        items={testimonials}
-        direction="right"
-        speed="slow"
-      />
-    </div>
-  );
-}
+    <main className="relative flex flex-col items-center justify-center min-h-screen overflow-hidden ">
+      {/* Animated Header */}
+      <motion.div
+        className="relative z-10 text-center mb-16 w-full max-w-4xl px-4"
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+      >
+        <motion.div
+          variants={letterContainer}
+          initial="hidden"
+          animate="show"
+          className="mb-6"
+        >
+          <h2 className="text-7xl font-bold mb-2">
+            {"Voice of Our Users".split("").map((letter, index) => (
+              <motion.span
+                key={index}
+                variants={letterAnimation}
+                whileHover={{
+                  y: -8,
+                  scale: 1.1,
+                  color: index % 2 ? '#EAB308' : '#F97316',
+                  transition: {
+                    type: "spring",
+                    stiffness: 400,
+                    damping: 10
+                  }
+                }}
+                className="inline-block transition-all duration-200 text-white cursor-pointer"
+              >
+                {letter === " " ? "\u00A0" : letter}
+              </motion.span>
+            ))}
+          </h2>
+          <motion.div
+            className="h-px bg-gradient-to-r from-transparent via-zinc-700 to-transparent w-full mt-4"
+            initial={{ scaleX: 0 }}
+            animate={{ scaleX: 1 }}
+            transition={{ delay: 1, duration: 1 }}
+          />
+        </motion.div>
 
-const testimonials = [
-  {
-    quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
-  },
-  {
-    quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
-  },
-  {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
-  },
-  {
-    quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
-  },
-  {
-    quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
-  },
-];
+        <motion.p
+          className="text-xl text-zinc-400 mt-6"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5, duration: 0.8 }}
+        >
+          Discover what our community has achieved with our platform
+        </motion.p>
+      </motion.div>
+
+      {/* First Card Set */}
+      <motion.div
+        className="relative z-10 w-full max-w-7xl mx-auto"
+        initial={{ opacity: 0, x: -100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ delay: 0.3, duration: 0.8 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+      >
+        <InfiniteMovingCards
+          items={items}
+          direction="left"
+          speed="normal"
+          pauseOnHover={true}
+          className="mt-4"
+        />
+      </motion.div>
+
+      {/* Second Card Set */}
+      <motion.div
+        className="relative z-10 w-full max-w-7xl mx-auto"
+        initial={{ opacity: 0, x: 100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ delay: 0.6, duration: 0.8 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+      >
+        <InfiniteMovingCards
+          items={items2}
+          direction="right"
+          speed="normal"
+          pauseOnHover={true}
+          className="mt-10"
+        />
+      </motion.div>
+
+      {/* Third Card Set */}
+      <motion.div
+        className="relative z-10 w-full max-w-7xl mx-auto"
+        initial={{ opacity: 0, x: -100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ delay: 0.9, duration: 0.8 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+      >
+        <InfiniteMovingCards
+          items={items3}
+          direction="left"
+          speed="normal"
+          pauseOnHover={true}
+          className="mt-10"
+        />
+      </motion.div>
+
+      {/* Bottom Decorative Line */}
+      <motion.div
+        className="w-24 h-1 bg-gradient-to-r from-yellow-500 via-orange-500 to-yellow-500 mt-16"
+        initial={{ width: 0 }}
+        animate={{ width: '6rem' }}
+        transition={{ delay: 1.2, duration: 0.8 }}
+      />
+    </main>
+  );
+};
+
+export default Loop;
