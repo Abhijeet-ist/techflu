@@ -29,7 +29,7 @@ function SpeakerCard({ name, title, quote, image, stats, hasBorder }: SpeakerPro
         <div className="bg-[#1a1a1a] p-8 rounded-lg mb-6">
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
                 <div className={`relative w-48 h-48 ${hasBorder ? "border-4 border-[#ff4500]" : ""}`}>
-                    <Image src={image || "/placeholder.svg"} alt={name} width={192} height={192} className="object-cover" />
+                    <Image src={image || "/placeholder.svg"} alt={name} width={200} height={200} className="object-cover" />
                 </div>
                 <div className="flex-1 text-center md:text-left">
                     <h2 className="text-2xl font-bold text-white mb-2">{name}</h2>
@@ -86,7 +86,7 @@ export default function SpeakersPage() {
             title: "Software Engineer, YouTuber, Public Speaker",
             quote: "This experience truly exceeded my expectations—every detail was thoughtfully curated!",
             image:
-                "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-02-24%2021-52-26-pkxB75BJpgfyY9voyr8vgBb8XFSxV7.png",
+                "/s3_2c.jpeg",
             stats: {
                 linkedin: {
                     followers: "235k",
@@ -108,7 +108,7 @@ export default function SpeakersPage() {
             title: "Career Development Coach , Public Speaker",
             quote: "The hospitality here made me feel like I was at home, but with a touch of luxury!",
             image:
-                "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-02-24%2021-52-26-pkxB75BJpgfyY9voyr8vgBb8XFSxV7.png",
+                "/s3_3c.jpeg",
             stats: {
                 linkedin: {
                     followers: "252k",
@@ -126,7 +126,7 @@ export default function SpeakersPage() {
             title: "Founder of Tayyari | Ex. Microsoft",
             quote: "A perfect blend of comfort and elegance—this stay will be unforgettable!",
             image:
-                "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-02-24%2021-52-26-pkxB75BJpgfyY9voyr8vgBb8XFSxV7.png",
+                "/s3_1c.jpeg",
             stats: {
                 linkedin: {
                     followers: "496k",
