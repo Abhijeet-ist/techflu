@@ -80,7 +80,7 @@ const Footer: FC<FooterProps> = ({ setPopUp }) => {
           </div>
           <div className="relative sm:w-[20vw] w-[40vw] h-full top-8">
             <Image
-              src="/assets/footerbg.png"
+              src="/footerbg.png"
               alt="Footer Background"
               width={400}
               height={400}
