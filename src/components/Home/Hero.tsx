@@ -3,7 +3,7 @@
 import React from "react";
 import Spline from "@splinetool/react-spline";
 import { motion } from "framer-motion";
-// import { GoogleGeminiEffectDemo } from "./Geffect";
+import { GoogleGeminiEffectDemo } from "./Geffect";
 
 interface HeroProps {
     // Add any props here if you plan to pass them
@@ -34,7 +34,7 @@ const Hero: React.FC<HeroProps> = () => {
                         className="text-9xl font-extrabold font-serif text-transparent bg-clip-text bg-gradient-to-r from-orange-800 via-orange-500 to-yellow-300 animate-[color-animation]"
                         initial={{ opacity: 0, y: -20 }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8 }}
+                        transition={{ duration: 3 }}
                     >
                         TECHFLUENCE
                     </motion.h1>
@@ -142,7 +142,7 @@ const Hero: React.FC<HeroProps> = () => {
                         <div className="absolute inset-0 bg-orange-500/40 blur-2xl" />
                         <svg viewBox="0 0 1440 320" className="relative w-full">
                             <path
-                                fill="rgb(249, 115, 22)"
+                                fill="rgb(250, 170, 96)"
                                 fillOpacity="0.8"
                                 d="M0,224L48,202.7C96,181,192,139,288,122.7C384,107,480,117,576,144C672,171,768,213,864,202.7C960,192,1056,128,1152,90.7C1248,53,1344,43,1392,37.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
                             />
@@ -150,11 +150,11 @@ const Hero: React.FC<HeroProps> = () => {
                     </div>
                     <div className="h-24 bg-gradient-to-t from-orange-500/20 to-transparent" />
                 </div>
-                <div className="absolute bottom-10 left-10 p-7 border border-orange-400 bg-transparent text-white rounded-lg shadow-lg w-64">
+                <div className="absolute bottom-10 left-10 p-7 border border-orange-400 bg-orange-500/20 backdrop-blur-md text-white rounded-lg shadow-lg w-64">
                     <p className="text-xl font-bold">North India’s biggest tech event, bringing innovation, insights, and industry leaders together</p>
                 </div>
 
-                <div className="absolute bottom-10 right-10 border  border-orange-400 p-7 bg-transparent text-white rounded-lg shadow-lg w-64">
+                <div className="absolute bottom-10 right-10 border border-orange-400 p-7 bg-orange-500/20 backdrop-blur-md text-white rounded-lg shadow-lg w-64">
                     <p className="text-xl font-bold">Enhance your event experience with seamless guest check-ins and real-time tech-driven insights.</p>
                 </div>
 
