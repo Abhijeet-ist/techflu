@@ -29,9 +29,9 @@ export default function Home() {
       <div>
       <InfiniteMovingCardsDemo />
       </div>
-      <div>
+      {/* <div>
         <Footer />
-      </div>
+      </div> */}
       </Spotlight>
     </div>
   );
