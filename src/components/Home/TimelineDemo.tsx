@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { Timeline } from "@/components/ui/timeline";
+import { Timeline } from "../ui/timeline";
 
 export function TimelineDemo() {
     const data = [
@@ -167,7 +167,7 @@ export function TimelineDemo() {
     ];
 
     return (
-        <div className="w-full">
+        <div className="w-full bg-black">
             <Timeline data={data} />
         </div>
     );
