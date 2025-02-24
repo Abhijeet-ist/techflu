@@ -69,7 +69,7 @@ const Footer: React.FC<FooterProps> = ({ setPopUp }) => {
                         <div className="flex-1 bg-zinc-800 rounded-[1.5vw] p-[1vw]">
                             <h2 className="sm:text-[2.3vw] text-[4vw] audiowide-regular text-nowrap">Techfluence</h2>
                             <p className="text-zinc-100 sm:text-[1vw] text-[2.5vw]">
-                                Techfluence is an annual event organized by the School of Computer Science at Lovely Professional University to foster academic excellence, innovation, and career guidance among aspiring technocrats. They shared valuable insights into the practical aspects of continuous learning in the rapidly evolving technology sector. The event left a lasting impact on students, inspiring them to excel in their technological pursuits.
+                                Techfluence is an annual event organized by the School of Computer Science at Lovely Professional University to foster academic excellence, innovation, and career guidance among aspiring technocrats.
                             </p>
                         </div>
                     </div>
