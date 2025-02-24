@@ -38,21 +38,6 @@ const Footer: React.FC<FooterProps> = ({ setPopUp }) => {
                     >
                         Join for <span className="text-white">Free</span>
                     </button>
-                <div className="w-full h-full bg-zinc-800 rounded-[1.5vw] flex overflow-hidden">
-                    <div className="sm:w-[24vw] w-full h-full flex flex-col justify-between p-[2vw]">
-                        <h1 className="audiowide-regular sm:text-[3vw] text-[6vw] sm:w-[30vw]">
-                            Unleash Your Potential, Code Your Future
-                        </h1>
-                        <button
-                            onClick={handleRegister}
-                            className="bg-gradient-to-br from-indigo-400 to-indigo-700 w-fit px-[3vw] py-[1vw] rounded-[1.5vw] sm:text-[1.5vw] text-[3vw] text-zinc-100 font-medium"
-                        >
-                            Join for <span className="text-white">Free</span>
-                        </button>
-                    </div>
-                    <div className="sm:w-[20vw] w-[40vw] h-full relative top-[2vw]">
-                        <DistortImageCanvas propImage={footerbg}/>
-                    </div>
                 </div>
 
                 {/* Right Section */}
@@ -68,7 +53,7 @@ const Footer: React.FC<FooterProps> = ({ setPopUp }) => {
                         <div className="flex-1 bg-zinc-800 rounded-[1.5vw] p-[1vw]">
                             <h2 className="sm:text-[2.3vw] text-[4vw] audiowide-regular text-nowrap">Techfluence</h2>
                             <p className="text-zinc-100 sm:text-[1vw] text-[2.5vw]">
-                                Techfluence is an annual event organized by the School of Computer Science at Lovely Professional University to foster academic excellence, innovation, and career guidance among aspiring technocrats. They shared valuable insights into the practical aspects of continuous learning in the rapidly evolving technology sector. The event left a lasting impact on students, inspiring them to excel in their technological pursuits.
+                                Techfluence is an annual event organized by the School of Computer Science at Lovely Professional University to foster academic excellence, innovation, and career guidance among aspiring technocrats.
                             </p>
                         </div>
                     </div>
