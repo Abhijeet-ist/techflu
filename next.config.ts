@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
-    domains: ["assets.aceternity.com","aceternity.com","imagekit.io"], // Add GitHub avatars domain
+    domains: ["assets.aceternity.com","aceternity.com","upload.wikimedia.org","uxwing.com","imagekit.io"] // Add GitHub avatars domain
   },
   /* config options here */
 };

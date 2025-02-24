@@ -1,3 +1,4 @@
+import Footer from "@/components/Home/Footer";
 import Hero from "@/components/Home/Hero";
 import { HeroStats } from "@/components/Home/hero-stats";
 import { HeroParallaxDemo } from "@/components/Home/HeroParallaxDemo";
@@ -14,13 +15,16 @@ export default function Home() {
         <Hero />
       </div>
       <div>
-        <HeroStats/>
-      </div>
-      <div>
         <TimelineDemo />
       </div>
       <div>
+        <HeroStats />
+      </div>
+      <div>
         <HeroParallaxDemo />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
