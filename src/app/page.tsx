@@ -15,9 +15,9 @@ export default function Home() {
         <div>
           <Hero />
         </div>
-        <div>
+        {/* <div>
           <TextGenerateEffectDemo />
-        </div>
+        </div> */}
         <div>
           <TimelineDemo />
         </div>
