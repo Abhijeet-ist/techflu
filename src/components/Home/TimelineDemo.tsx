@@ -5,6 +5,7 @@ import { Timeline } from "@/components/ui/timeline";
 export function TimelineDemo() {
     const data = [
         {
+            
             title: "SEASON 1",
             content: (
                 <div>
