@@ -40,7 +40,7 @@ const Footer: React.FC<FooterProps> = ({ setPopUp }) => {
                         </button>
                     </div>
                     <div className="sm:w-[20vw] w-[40vw] h-full relative top-[2vw]">
-                        <DistortImageCanvas propImage={footerbg} />
+                        <DistortImageCanvas propImage={footerbg}/>
                     </div>
                 </div>
                 <div className="w-full h-full rounded-[1.5vw] flex gap-[1.5vw]">

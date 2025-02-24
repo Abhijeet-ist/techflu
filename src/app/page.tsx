@@ -3,7 +3,8 @@ import Hero from "@/components/Home/Hero";
 import { HeroStats } from "@/components/Home/hero-stats";
 import { HeroParallaxDemo } from "@/components/Home/HeroParallaxDemo";
 import { TimelineDemo } from "@/components/Home/TimelineDemo";
-
+import { Spotlight } from "@/components/ui/spotlight";
+import { HeroScrollDemo } from "@/components/Home/HeroScrollDemo";
 
 // import { div } from "framer-motion/client";
 
@@ -11,6 +12,7 @@ import { TimelineDemo } from "@/components/Home/TimelineDemo";
 export default function Home() {
   return (
     <div>
+      <Spotlight>
       <div>
         <Hero />
       </div>
@@ -24,8 +26,12 @@ export default function Home() {
         <HeroParallaxDemo />
       </div>
       <div>
+        <HeroScrollDemo />
+      </div>
+      <div>
         <Footer />
       </div>
+      </Spotlight>
     </div>
   );
 }
