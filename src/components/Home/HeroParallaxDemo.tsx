@@ -10,56 +10,56 @@ export const products = [
         title: "ph14",
         link: "#",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+            "/IMG_2061.JPG",
     },
     {
         title: "ph13",
         link: "#",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+            "/IMG_2064.JPG",
     },
     {
         title: "ph12",
         link: "#",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+            "/IMG_2302.JPG",
     },
 
     {
         title: "ph11",
         link: "#",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+            "/IMG_2275.JPG",
     },
     {
         title: "ph10",
         link: "#",
-        thumbnail: "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+        thumbnail: "/IMG_2268.JPG",
     },
     {
         title: "ph9",
         link: "#",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+            "/IMG_2266.JPG",
     },
 
     {
         title: "ph8",
         link: "#",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+            "/IMG_2257.JPG",
     },
     {
         title: "ph7",
         link: "#",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+            "/IMG_2242.JPG",
     },
     {
         title: "ph87",
         link: "#",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
+            "/IMG_2231.JPG",
     },
     {
         title: "ph6",

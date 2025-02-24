@@ -8,7 +8,7 @@ export function TimelineDemo() {
             title: "SEASON 1",
             content: (
                 <div>
-                    <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-bold mb-8 tracking-wide text-center bg-white/30 dark:bg-black/30 backdrop-blur-md rounded-lg p-4 shadow-lg hover:glow">
+                    <p className="text-white text-xl md:text-2xl font-bold mb-8 tracking-wide text-center bg-white/30 dark:bg-black/30 backdrop-blur-md rounded-lg p-4 shadow-lg hover:glow">
                         Speakers of Season 1
                     </p>
                     <div className="grid grid-cols-2 gap-4">
@@ -48,7 +48,7 @@ export function TimelineDemo() {
             title: "SEASON 2",
             content: (
                 <div>
-                    <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-bold mb-8 tracking-wide text-center bg-white/30 dark:bg-black/30 backdrop-blur-md rounded-lg p-4 shadow-lg hover:glow">
+                    <p className="text-white text-xl md:text-2xl font-bold mb-8 tracking-wide text-center bg-white/30 dark:bg-black/30 backdrop-blur-md rounded-lg p-4 shadow-lg hover:glow">
                         Speakers of Season 2
                     </p>
                     <div className="grid grid-cols-2 gap-4">
@@ -88,7 +88,7 @@ export function TimelineDemo() {
             title: "SEASON 3",
             content: (
                 <div>
-                    <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-bold mb-8 tracking-wide text-center bg-white/30 dark:bg-black/30 backdrop-blur-md rounded-lg p-4 shadow-lg hover:glow">
+                    <p className="text-white text-xl md:text-2xl font-bold mb-8 tracking-wide text-center bg-white/30 dark:bg-black/30 backdrop-blur-md rounded-lg p-4 shadow-lg hover:glow">
                         Speakers of Season 3
                     </p>
                     <div className="grid grid-cols-2 gap-4">
@@ -128,7 +128,7 @@ export function TimelineDemo() {
             title: "SEASON 4 - Upcoming",
             content: (
                 <div>
-                    <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-bold mb-8 tracking-wide text-center bg-white/30 dark:bg-black/30 backdrop-blur-md rounded-lg p-4 shadow-lg hover:glow">
+                    <p className="text-white text-xl md:text-2xl font-bold mb-8 tracking-wide text-center bg-white/30 dark:bg-black/30 backdrop-blur-md rounded-lg p-4 shadow-lg hover:glow">
                         Speakers of Upcoming Season
                     </p>
                     <div className="grid grid-cols-2 gap-4">
