@@ -143,6 +143,88 @@ export default function SpeakersPage() {
             },
             hasBorder: true,
         },
+        {
+            name: "Sandeep jain",
+            title: "Founder, CEO of GFG,Public Speaker",
+            quote: "every moment here was magical,from the ambiance to the heartfelt service!",
+            image:
+                "/s3_4c.jpeg",
+            stats: {
+                linkedin: {
+                    followers: "496k",
+                    url: "https://linkedin.com/in/nishant-chahar",
+                },
+                instagram: {
+                    followers: "181k",
+                    url: "https://instagram.com/nishant.chahar",
+                },
+                youtube: {
+                    followers: "476k",
+                    url: "https://youtube.com/@nishant-chahar",
+                },
+            },
+            hasBorder: true,
+        },
+        {
+            name: "MV Karan",
+            title: "Sr,Manager/'Head,International DevRel next to CEO at GitHub",
+            quote: "I arrived as a guest but left felling like family.Can't ait to return!",
+            image:
+                "/s3_7c.jpeg",
+            stats: {
+                linkedin: {
+                    followers: "496k",
+                    url: "https://linkedin.com/in/nishant-chahar",
+                },
+                instagram: {
+                    followers: "181k",
+                    url: "https://instagram.com/nishant.chahar",
+                },
+                youtube: {
+                    followers: "476k",
+                    url: "https://youtube.com/@nishant-chahar",
+                },
+            },
+            hasBorder: true,
+        },
+        {
+            name:"Deeksha Sharma",
+            title: "Founder Enso Life-NeuroArt,4*TEDx Speaker",
+            quote: "tHIS PLACE IS A HIDDEN GEM--PURE Tranquility and world-class hospitality!",
+            image:
+                "/s3_5c.jpeg",
+            stats: {
+                // linkedin: {
+                //     followers: "496k",
+                //     url: "https://linkedin.com/in/nishant-chahar",
+                // },
+                // instagram: {
+                //     followers: "181k",
+                //     url: "https://instagram.com/nishant.chahar",
+                // },
+                // youtube: {
+                //     followers: "476k",
+                //     url: "https://youtube.com/@nishant-chahar",
+                // },
+            },
+            hasBorder: true,
+        },
+        {
+            name: "Darika Jain",
+            title: "Content Creator 2x WEF Awardee | CSR|Corporte Laws&Management",
+            quote: "I came for a stay,but I left with beautiful memories for a lifetime!",
+            image:
+                "/s3_6c.jpeg",
+            stats: {
+                linkedin: {
+                    followers: "800k",
+                    url: "https://linkedin.com/in/nishant-chahar",
+                },
+                
+            },
+            hasBorder: true,
+        },
+
     ]
 
     return (
