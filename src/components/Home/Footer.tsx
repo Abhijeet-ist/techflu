@@ -38,6 +38,21 @@ const Footer: React.FC<FooterProps> = ({ setPopUp }) => {
                     >
                         Join for <span className="text-white">Free</span>
                     </button>
+                <div className="w-full h-full bg-zinc-800 rounded-[1.5vw] flex overflow-hidden">
+                    <div className="sm:w-[24vw] w-full h-full flex flex-col justify-between p-[2vw]">
+                        <h1 className="audiowide-regular sm:text-[3vw] text-[6vw] sm:w-[30vw]">
+                            Unleash Your Potential, Code Your Future
+                        </h1>
+                        <button
+                            onClick={handleRegister}
+                            className="bg-gradient-to-br from-indigo-400 to-indigo-700 w-fit px-[3vw] py-[1vw] rounded-[1.5vw] sm:text-[1.5vw] text-[3vw] text-zinc-100 font-medium"
+                        >
+                            Join for <span className="text-white">Free</span>
+                        </button>
+                    </div>
+                    <div className="sm:w-[20vw] w-[40vw] h-full relative top-[2vw]">
+                        <DistortImageCanvas propImage={footerbg}/>
+                    </div>
                 </div>
 
                 {/* Right Section */}
