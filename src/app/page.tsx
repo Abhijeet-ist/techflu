@@ -5,9 +5,7 @@ import { HeroParallaxDemo } from "@/components/Home/HeroParallaxDemo";
 import { TimelineDemo } from "@/components/Home/TimelineDemo";
 import { Spotlight } from "@/components/ui/spotlight";
 import { HeroScrollDemo } from "@/components/Home/HeroScrollDemo";
-
-// import { div } from "framer-motion/client";
-
+import { InfiniteMovingCardsDemo } from "@/components/Home/InfiniteMovingCardsDemo";
 
 export default function Home() {
   return (
@@ -27,6 +25,9 @@ export default function Home() {
       </div>
       <div>
         <HeroScrollDemo />
+      </div>
+      <div>
+      <InfiniteMovingCardsDemo />
       </div>
       <div>
         <Footer />
