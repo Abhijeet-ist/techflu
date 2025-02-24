@@ -1,4 +1,5 @@
 import Hero from "@/components/Home/Hero";
+import { HeroStats } from "@/components/Home/hero-stats";
 import { HeroParallaxDemo } from "@/components/Home/HeroParallaxDemo";
 import { TimelineDemo } from "@/components/Home/TimelineDemo";
 
@@ -11,6 +12,9 @@ export default function Home() {
     <div>
       <div>
         <Hero />
+      </div>
+      <div>
+        <HeroStats/>
       </div>
       <div>
         <TimelineDemo />
