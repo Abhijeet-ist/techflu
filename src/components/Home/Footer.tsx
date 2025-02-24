@@ -2,11 +2,11 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import DistortImageCanvas from './DistortImageCanvas';
+
 interface FooterProps {
     setPopUp: (value: boolean) => void;
 }
-const footerbg = "/footerbg.png";
+
 const Footer: React.FC<FooterProps> = ({ setPopUp }) => {
     const handleRegister = () => {
         setPopUp(true);
@@ -25,8 +25,19 @@ const Footer: React.FC<FooterProps> = ({ setPopUp }) => {
                 initial={{ borderRadius: 200 }}
                 transition={{ duration: 1, ease: 'easeIn' }}
                 whileInView={{ borderRadius: 30 }}
-                className="bg-zinc-950 w-full sm:h-[37vw] h-[100vw] rounded-t-[4vw] flex sm:flex-row flex-col gap-[1.5vw] p-[4vw] border-t border-zinc-400 overflow-hidden"
+                className="bg-gradient-to-br from-orange-500 to-gray-500 w-full sm:h-[37vw] h-[100vw] rounded-t-[4vw] flex sm:flex-row flex-col gap-[1.5vw] p-[4vw] border-t border-zinc-400 overflow-hidden"
             >
+                {/* Left Section */}
+                <div className="bg-gradient-to-br from-orange-300 to-orange-500 rounded-[1.5vw] sm:w-[24vw] w-full flex flex-col justify-between p-[2vw]">
+                    <h1 className="sm:text-[3vw] text-[6vw] w-[300px] text-white">
+                        Unleash Your Potential, Code Your Future
+                    </h1>
+                    <button
+                        onClick={handleRegister}
+                        className="bg-gradient-to-br from-orange-400 to-orange-600 w-fit px-[3vw] py-[1vw] rounded-[1.5vw] sm:text-[1.5vw] text-[3vw] text-zinc-100 font-medium hover:bg-orange-500 transition duration-300"
+                    >
+                        Join for <span className="text-white">Free</span>
+                    </button>
                 <div className="w-full h-full bg-zinc-800 rounded-[1.5vw] flex overflow-hidden">
                     <div className="sm:w-[24vw] w-full h-full flex flex-col justify-between p-[2vw]">
                         <h1 className="audiowide-regular sm:text-[3vw] text-[6vw] sm:w-[30vw]">
@@ -43,41 +54,37 @@ const Footer: React.FC<FooterProps> = ({ setPopUp }) => {
                         <DistortImageCanvas propImage={footerbg}/>
                     </div>
                 </div>
-                <div className="w-full h-full rounded-[1.5vw] flex gap-[1.5vw]">
-                    <div className="w-full h-full rounded-[1.5vw] flex flex-col gap-[1.5vw]">
+
+                {/* Right Section */}
+                <div className="flex-1 flex gap-[1.5vw]">
+                    {/* Middle Column */}
+                    <div className="flex-1 flex flex-col gap-[1.5vw]">
                         <a
                             href="mailto:learnersarc@gmail.com?subject=Inquiry&body=Hello, I have a query regarding..."
-                            className="w-full h-full bg-zinc-800 rounded-[1.5vw] flex flex-col gap-[1.5vw] p-[1vw]"
+                            className="bg-gradient-to-br from-orange-400 to-black w-fit px-[3vw] py-[1vw] rounded-[1.5vw] sm:text-[1.5vw] text-[3vw] text-zinc-100 font-medium"
                         >
                             <h2 className="sm:text-[1.1vw] text-[3vw]">Have more queries?..Drop a Mail</h2>
-                            <Image
-                                className="bg-zinc-800 sm:h-[14vw] h-[18vw] sm:object-cover"
-                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1280px-Gmail_icon_%282020%29.svg.png"
-                                alt="Gmail Icon"
-                                width={100}
-                                height={100}
-                            />
                         </a>
-                        <a
-                            href="#"
-                            target="_blank"
-                            className="w-full h-full bg-zinc-800 rounded-[1.5vw] p-[1vw]"
-                        >
-                            <span className="sm:text-[1.1vw] text-[3vw]">View</span>
-                            <h2 className="sm:text-[2.3vw] text-[4vw] audiowide-regular text-nowrap">WOC Syllabus</h2>
-                        </a>
+                        <div className="flex-1 bg-zinc-800 rounded-[1.5vw] p-[1vw]">
+                            <h2 className="sm:text-[2.3vw] text-[4vw] audiowide-regular text-nowrap">Techfluence</h2>
+                            <p className="text-zinc-100 sm:text-[1vw] text-[2.5vw]">
+                                Techfluence is an annual event organized by the School of Computer Science at Lovely Professional University to foster academic excellence, innovation, and career guidance among aspiring technocrats. They shared valuable insights into the practical aspects of continuous learning in the rapidly evolving technology sector. The event left a lasting impact on students, inspiring them to excel in their technological pursuits.
+                            </p>
+                        </div>
                     </div>
-                    <div className="w-full h-full bg-gradient-to-br from-indigo-300 to-indigo-700 rounded-[1.5vw] p-[2vw] flex flex-col gap-[2vw]">
-                        <h1 className="sm:text-[2.5vw] text-[5vw] tinos-bold">Connect Us.</h1>
-                        <div className="w-full h-full flex flex-col gap-[1vw]">
+
+                    {/* Right Column - Social Links */}
+                    <div className="bg-gradient-to-br from-orange-400 to-black p-[2vw] rounded-[1.5vw] sm:w-[20vw]">
+                        <h1 className="sm:text-[2.5vw] text-[5vw] tinos-bold text-white mb-[2vw]">Connect Us.</h1>
+                        <div className="flex flex-col gap-[1.5vw]">
                             {socialLinks.map(({ href, imgSrc, alt, name, username }) => (
-                                <a key={name} href={href} target="_blank" className="flex gap-[1.5vw] items-center">
+                                <a key={name} href={href} target="_blank" rel="noopener noreferrer" className="flex gap-[1.5vw] items-center">
                                     <div className="sm:w-[4vw] sm:h-[4vw] h-[7vw] w-[7vw] rounded-lg overflow-hidden">
-                                        <Image className="w-full h-full" src={imgSrc} alt={alt} width={50} height={50} />
+                                        <Image className="w-full h-full object-cover" src={imgSrc} alt={alt} width={50} height={50} />
                                     </div>
                                     <div>
-                                        <h1 className="sm:text-[1.2vw] text-[3vw] font-semibold">{name}</h1>
-                                        <p className="sm:text-[1vw] text-[2vw]">{username}</p>
+                                        <h1 className="sm:text-[1.2vw] text-[3vw] font-semibold text-white">{name}</h1>
+                                        <p className="sm:text-[1vw] text-[2vw] text-zinc-300">{username}</p>
                                     </div>
                                 </a>
                             ))}
