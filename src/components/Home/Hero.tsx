@@ -1,178 +1,237 @@
-'use client';
+"use client"
 
-import React from "react";
-import Spline from "@splinetool/react-spline";
-import { motion } from "framer-motion";
+import type React from "react"
+import { useState, useEffect } from "react"
+import Spline from "@splinetool/react-spline"
+import { motion } from "framer-motion"
+import { ArrowRight, Globe, Cpu, Code, Zap, Trophy } from "lucide-react"
 
-interface HeroProps { }
+type HeroProps = {}
 
 interface ImageData {
-    id: number;
-    src: string;
-    alt: string;
+    id: number
+    src: string
+    alt: string
+    icon: React.ReactNode
 }
 
 const Hero: React.FC<HeroProps> = () => {
-    const images: ImageData[] = Array.from({ length: 5 }, (_, i) => ({
-        id: i + 1,
-        src: `/image${i + 1}.png`,
-        alt: `Tech ${i + 1}`
-    }));
+    const [windowWidth, setWindowWidth] = useState(typeof window !== "undefined" ? window.innerWidth : 0)
+
+    useEffect(() => {
+        const handleResize = () => setWindowWidth(window.innerWidth)
+        window.addEventListener("resize", handleResize)
+        return () => window.removeEventListener("resize", handleResize)
+    }, [])
+
+    // Enhanced image data with icons and compelling descriptions
+    const images: ImageData[] = [
+        { id: 1, src: "/image1.png", alt: "AI Innovation", icon: <Cpu className="w-6 h-6 text-yellow-300" /> },
+        { id: 2, src: "/image2.png", alt: "Blockchain Solutions", icon: <Code className="w-6 h-6 text-yellow-300" /> },
+        { id: 3, src: "/image3.png", alt: "XR Experience", icon: <Globe className="w-6 h-6 text-yellow-300" /> },
+        { id: 4, src: "/image4.png", alt: "Quantum Computing", icon: <Zap className="w-6 h-6 text-yellow-300" /> },
+        { id: 5, src: "/image5.png", alt: "IoT Revolution", icon: <Trophy className="w-6 h-6 text-yellow-300" /> },
+    ]
 
     const onSplineLoad = (): void => {
-        console.log('Spline scene loaded');
-    };
+        console.log("Spline scene loaded")
+    }
 
     return (
-        <div>
-            <div className="relative min-h-screen bg-gradient-to-b from-black via-gray-900 to-black overflow-hidden">
-                <div className="absolute top-4 sm:top-6 md:top-8 left-0 right-0 z-20 text-center">
-                    <motion.h1
-                        className="text-3xl sm:text-5xl md:text-6xl lg:text-8xl xl:text-9xl font-extrabold font-serif text-transparent bg-clip-text bg-gradient-to-r from-orange-800 via-orange-500 to-yellow-300 animate-[color-animation] px-4"
-                        initial={{ opacity: 0, y: -20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 3 }}
-                    >
-                        TECHFLUENCE 4.0
-                    </motion.h1>
-                </div>
-                <style jsx>{`
-                     @layer utilities {
-                        @keyframes color-animation {
-                            0% { background-position: 0% 50%; }
-                            50% { background-position: 100% 50%; }
-                            100% { background-position: 0% 50%; }
-                        }
-                        .animate-[color-animation] {
-                            background-size: 300%;
-                            animation: color-animation 1s infinite ease-in-out;
-                        }
-                    }
+        <div className="relative min-h-screen bg-gradient-to-b from-black via-gray-900 to-black overflow-hidden">
+            <div className="absolute top-4 sm:top-6 md:top-8 left-0 right-0 z-20 text-center">
+                <motion.h1
+                    className="text-3xl sm:text-5xl md:text-6xl lg:text-8xl xl:text-9xl font-extrabold font-serif text-transparent bg-clip-text bg-gradient-to-r from-orange-800 via-orange-500 to-yellow-300 animate-[color-animation] px-4"
+                    initial={{ opacity: 0, y: -20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 3 }}
+                >
+                    TECHFLUENCE 4.0
+                </motion.h1>
 
-                    @keyframes marquee {
-                        0% {
-                            transform: translateX(0);
-                        }
-                        100% {
-                            transform: translateX(-50%);
-                        }
-                    }
-
-                    .animate-marquee {
-                        animation: marquee 10s linear infinite;
-                    }
-
-                    .paused {
-                        animation-play-state: paused !important;
-                    }
-                `}</style>
-
-                {/* Top decorative curve */}
-                <div className="absolute top-0 w-full">
-                    <div className="h-16 sm:h-20 md:h-24 bg-gradient-to-b from-orange-500/20 to-transparent" />
-                    <div className="relative h-24 sm:h-28 md:h-32">
-                        <div className="absolute inset-0 bg-orange-500/40 blur-2xl" />
-                        <svg viewBox="0 0 1440 320" className="relative w-full">
-                            <path
-                                fill="rgb(249, 115, 22)"
-                                fillOpacity="0.8"
-                                d="M0,32L48,37.3C96,43,192,53,288,90.7C384,128,480,192,576,202.7C672,213,768,171,864,144C960,117,1056,107,1152,122.7C1248,139,1344,181,1392,202.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-                            />
-                        </svg>
-                    </div>
-                </div>
-
-                {/* Modified marquee section */}
-                <div className="absolute top-1/2 -translate-y-1/2 w-full overflow-hidden py-6 sm:py-8 md:py-10">
-                    <div className="relative flex space-x-4 sm:space-x-6 md:space-x-8">
-                        <div className="animate-marquee flex space-x-4 sm:space-x-6 md:space-x-8">
-                            {images.map((image) => (
-                                <motion.img
-                                    key={image.id}
-                                    src={image.src}
-                                    alt={image.alt}
-                                    className="w-32 h-32 sm:w-48 sm:h-48 md:w-60 md:h-60 lg:w-72 lg:h-72 xl:w-80 xl:h-80 rounded-xl object-cover shadow-2xl shadow-orange-500/20 transition-transform"
-                                    whileHover={{
-                                        scale: 1.15,
-                                        zIndex: 20,
-                                        rotate: image.id % 2 === 0 ? -5 : 5,
-                                        transition: { duration: 0.3 }
-                                    }}
-                                    onHoverStart={(e) => {
-                                        e.currentTarget.parentElement?.classList.add('paused');
-                                    }}
-                                    onHoverEnd={(e) => {
-                                        e.currentTarget.parentElement?.classList.remove('paused');
-                                    }}
-                                />
-                            ))}
-                        </div>
-                        <div className="animate-marquee flex space-x-4 sm:space-x-6 md:space-x-8" aria-hidden="true">
-                            {images.map((image) => (
-                                <motion.img
-                                    key={`dup-${image.id}`}
-                                    src={image.src}
-                                    alt={image.alt}
-                                    className="w-32 h-32 sm:w-48 sm:h-48 md:w-60 md:h-60 lg:w-72 lg:h-72 xl:w-80 xl:h-80 rounded-xl object-cover shadow-2xl shadow-orange-500/20 transition-transform"
-                                    whileHover={{
-                                        scale: 1.15,
-                                        zIndex: 20,
-                                        rotate: image.id % 2 === 0 ? -5 : 5,
-                                        transition: { duration: 0.3 }
-                                    }}
-                                    onHoverStart={(e) => {
-                                        e.currentTarget.parentElement?.classList.add('paused');
-                                    }}
-                                    onHoverEnd={(e) => {
-                                        e.currentTarget.parentElement?.classList.remove('paused');
-                                    }}
-                                />
-                            ))}
-                        </div>
-                    </div>
-                </div>
-
-                {/* Bottom decorative curve */}
-                <div className="absolute bottom-0 w-full">
-                    <div className="relative h-24 sm:h-28 md:h-32">
-                        <div className="absolute inset-0 bg-orange-500/40 blur-2xl" />
-                        <svg viewBox="0 0 1440 320" className="relative w-full">
-                            <path
-                                fill="rgb(250, 170, 96)"
-                                fillOpacity="0.8"
-                                d="M0,224L48,202.7C96,181,192,139,288,122.7C384,107,480,117,576,144C672,171,768,213,864,202.7C960,192,1056,128,1152,90.7C1248,53,1344,43,1392,37.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-                            />
-                        </svg>
-                    </div>
-                    <div className="h-16 sm:h-20 md:h-24 bg-gradient-to-t from-orange-500/20 to-transparent" />
-                </div>
-
-                {/* Info boxes - Stack on mobile, side by side on larger screens */}
-                <div className="absolute bottom-4 sm:bottom-6 md:bottom-10 w-full px-4 sm:px-6 md:px-10 flex flex-col md:flex-row md:justify-between gap-4 md:gap-8">
-                    <div className="p-4 sm:p-5 md:p-7 border border-orange-400 bg-orange-500/20 backdrop-blur-md text-white rounded-lg shadow-lg md:w-64">
-                        <p className="text-base sm:text-lg md:text-xl font-bold">North India's biggest tech event, bringing innovation, insights, and industry leaders together</p>
-                    </div>
-
-                    <div className="p-4 sm:p-5 md:p-7 border border-orange-400 bg-orange-500/20 backdrop-blur-md text-white rounded-lg shadow-lg md:w-64">
-                        <p className="text-base sm:text-lg md:text-xl font-bold">Enhance your event experience with seamless guest check-ins and real-time tech-driven insights.</p>
-                    </div>
-                </div>
-
-                {/* 3D Robot Model */}
-                <div className="absolute inset-0 z-10 hidden min-[900px]:flex items-center justify-center">
-                    <div className="relative w-full h-full max-w-3xl sm:max-w-4xl mx-auto">
-                        <Spline
-                            scene="https://prod.spline.design/d2Zi4YYLrfy6VAKW/scene.splinecode"
-                            onLoad={onSplineLoad}
-                        />
-                    </div>
-                </div>
-
-                {/* Optional overlay gradient for depth */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/50 pointer-events-none" />
+                <motion.div
+                    className="mt-2 flex justify-center items-center"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 0.5 }}
+                >
+                </motion.div>
             </div>
-        </div>
-    );
-};
 
-export default Hero;
+            {windowWidth < 900 && (
+                <div className="mt-24 px-4 text-center z-20 relative">
+                    <motion.p
+                        className="text-white text-lg mb-6"
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.5, duration: 0.8 }}
+                    >
+                        Join the ultimate international hackathon where innovation meets technology. Showcase your skills,
+                        collaborate with global talents, and create the future!
+                    </motion.p>
+                    <motion.a
+                        href="https://forms.google.com/your-registration-form-url"
+                        className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-orange-500 to-yellow-500 text-white font-bold rounded-full transition-all hover:from-orange-600 hover:to-yellow-600 transform hover:scale-105"
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.8, duration: 0.8 }}
+                    >
+                        Register Now
+                        <ArrowRight className="ml-2" />
+                    </motion.a>
+                </div>
+            )}
+
+            {/* Optimized Continuous Marquee Section */}
+            <div className="absolute top-1/2 -translate-y-1/2 w-full overflow-hidden py-20 z-10">
+                {/* First Marquee Row - Left to Right */}
+                <div className="w-[200%] flex mb-6 sm:mb-8 md:mb-10">
+                    <div className="animate-marquee-ltr flex">
+                        {[...images, ...images].map((image, index) => (
+                            <motion.div
+                                key={`top-${index}`}
+                                className="relative group mx-4 sm:mx-5 md:mx-6"
+                                whileHover={{
+                                    scale: 1.15,
+                                    zIndex: 30,
+                                    rotate: index % 2 === 0 ? -5 : 5,
+                                    transition: { duration: 0.3 },
+                                }}
+                            >
+                                <motion.div
+                                    className="absolute -inset-3 bg-gradient-to-r from-orange-500 to-yellow-500 rounded-2xl opacity-0 group-hover:opacity-80 blur-xl transition duration-500"
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 0.3 }}
+                                    whileHover={{ opacity: 0.7 }}
+                                />
+                                <motion.img
+                                    src={image.src}
+                                    alt={image.alt}
+                                    className="w-64 h-64 sm:w-56 sm:h-56 md:w-72 md:h-72 lg:w-96 lg:h-96 rounded-xl object-cover shadow-2xl shadow-orange-500/30 relative z-10"
+                                />
+                                <motion.div
+                                    className="absolute -bottom-2 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4 rounded-b-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-center z-20"
+                                    initial={{ y: 20, opacity: 0 }}
+                                    whileHover={{ y: 0, opacity: 1 }}
+                                >
+                                    <div className="flex justify-center items-center mb-1">
+                                        {image.icon}
+                                    </div>
+                                    <p className="text-white font-bold text-lg sm:text-xl">{image.alt}</p>
+                                </motion.div>
+                            </motion.div>
+                        ))}
+                    </div>
+                </div>
+            </div>
+
+            {/* Floating particles */}
+            <div className="absolute inset-0 z-0 pointer-events-none">
+                {Array.from({ length: 15 }).map((_, i) => (
+                    <motion.div
+                        key={i}
+                        className={`absolute w-${i % 3 + 2} h-${i % 3 + 2} rounded-full opacity-${i % 3 + 2}0`}
+                        style={{
+                            backgroundColor: i % 2 === 0 ? "#f97316" : "#eab308",
+                            width: `${(i % 3 + 1) * 8}px`,
+                            height: `${(i % 3 + 1) * 8}px`,
+                            opacity: 0.1 + (i % 5) * 0.05
+                        }}
+                        initial={{
+                            x: Math.random() * windowWidth,
+                            y: Math.random() * 1000,
+                        }}
+                        animate={{
+                            x: [
+                                Math.random() * windowWidth,
+                                Math.random() * windowWidth,
+                                Math.random() * windowWidth,
+                            ],
+                            y: [
+                                Math.random() * 1000,
+                                Math.random() * 1000,
+                                Math.random() * 1000,
+                            ],
+                        }}
+                        transition={{
+                            duration: 15 + Math.random() * 20,
+                            repeat: Infinity,
+                            repeatType: "reverse",
+                        }}
+                    />
+                ))}
+            </div>
+
+            {/* World map overlay to emphasize international aspect */}
+            <div className="absolute inset-0 z-0 opacity-10 pointer-events-none">
+                <div className="w-full h-full bg-[url('/world-map.png')] bg-center bg-no-repeat bg-contain"></div>
+            </div>
+
+            {/* Info boxes */}
+            <div className="absolute bottom-4 pb-10 sm:bottom-6 md:bottom-10 w-full px-4 sm:px-6 md:px-10 flex flex-col md:flex-row md:justify-between gap-4 md:gap-8 z-20">
+                <motion.div
+                    className="p-4 sm:p-5 md:p-7 border-2 border-orange-400 bg-orange-500/20 backdrop-blur-md text-white rounded-lg shadow-lg md:w-72 lg:w-80"
+                    initial={{ opacity: 0, x: -50 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 1, duration: 0.8 }}
+                >
+                    <Globe className="w-8 h-8 text-yellow-300 mb-2" />
+                    <p className="text-base sm:text-lg md:text-xl font-bold">
+                        Global innovation hub with participants from 50+ countries
+                    </p>
+                </motion.div>
+
+
+
+                <motion.div
+                    className="p-4 sm:p-5 md:p-7 border-2 border-orange-400 bg-orange-500/20 backdrop-blur-md text-white rounded-lg shadow-lg md:w-72 lg:w-80"
+                    initial={{ opacity: 0, x: 50 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 1.2, duration: 0.8 }}
+                >
+                    <Cpu className="w-8 h-8 text-yellow-300 mb-2" />
+                    <p className="text-base sm:text-lg md:text-xl font-bold">
+                        Cutting-edge challenges with mentorship from industry leaders
+                    </p>
+                </motion.div>
+            </div>
+
+            {/* 3D Robot Model - Only visible on larger screens */}
+            {windowWidth >= 900 && (
+                <div className="absolute inset-0 z-10 flex items-center justify-center">
+                    <div className="relative w-full h-full max-w-3xl sm:max-w-4xl mx-auto">
+                        <Spline scene="https://prod.spline.design/d2Zi4YYLrfy6VAKW/scene.splinecode" onLoad={onSplineLoad} />
+                    </div>
+                </div>
+            )}
+
+            {/* Decorative elements */}
+            <div className="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-orange-500/30 to-transparent" />
+            <div className="absolute bottom-0 left-0 w-full h-64 bg-gradient-to-t from-orange-500/30 to-transparent" />
+            <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-yellow-500 rounded-full filter blur-3xl opacity-20 animate-pulse" />
+            <div className="absolute bottom-1/4 right-1/4 w-72 h-72 bg-orange-500 rounded-full filter blur-3xl opacity-20 animate-pulse" />
+
+            <style jsx>{`
+                @keyframes color-animation {
+                    0% { background-position: 0% 50%; }
+                    50% { background-position: 100% 50%; }
+                    100% { background-position: 0% 50%; }
+                }
+                .animate-[color-animation] {
+                    background-size: 300%;
+                    animation: color-animation 10s infinite;
+                }
+                @keyframes marquee-ltr {
+                    0% { transform: translateX(0); }
+                    100% { transform: translateX(-50%); }
+                }
+                .animate-marquee-ltr {
+                    width: 100%;
+                    animation: marquee-ltr 40s linear infinite;
+                }
+            `}</style>
+        </div>
+    )
+}
+
+export default Hero
