@@ -43,8 +43,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                     Changelog of TECHFLUENCE
                 </h2>
                 <p className="text-white text-sm md:text-base max-w-sm italic leading-relaxed">
-                    It&apos;ve been working on Aceternity for the past 2 years. Here&apos;s
-                    a timeline of my journey.
+                    Techfluence is a platform that brings together the best minds in the tech industry to share their knowledge and experience with the community.
                 </p>
             </div>
 
