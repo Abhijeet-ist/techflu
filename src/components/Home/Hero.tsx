@@ -26,11 +26,11 @@ const Hero: React.FC<HeroProps> = () => {
 
     // Enhanced image data with icons and compelling descriptions
     const images: ImageData[] = [
-        { id: 1, src: "/image1.jpeg", alt: "AI Innovation", icon: <Cpu className="w-6 h-6 text-yellow-300" /> },
+        { id: 1, src: "/image7.jpeg", alt: "AI Innovation", icon: <Cpu className="w-6 h-6 text-yellow-300" /> },
         { id: 2, src: "/image2.jpeg", alt: "Blockchain Solutions", icon: <Code className="w-6 h-6 text-yellow-300" /> },
         { id: 3, src: "/image3.jpeg", alt: "XR Experience", icon: <Globe className="w-6 h-6 text-yellow-300" /> },
         { id: 4, src: "/image4.jpeg", alt: "Quantum Computing", icon: <Zap className="w-6 h-6 text-yellow-300" /> },
-        { id: 5, src: "/image5.jpeg", alt: "IoT Revolution", icon: <Trophy className="w-6 h-6 text-yellow-300" /> },
+        { id: 6, src: "/image8.jpeg", alt: "IoT Revolution", icon: <Trophy className="w-6 h-6 text-yellow-300" /> },
     ]
 
     const onSplineLoad = (): void => {
