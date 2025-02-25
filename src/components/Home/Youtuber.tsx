@@ -1,6 +1,7 @@
 "use client"
 
-import TechYoutuberCard from "@/components/TechYoutuberCard"
+import TechYoutuberCard from "../ui/TechYoutuberCard"
+
 
 const youtubers = [
   {
@@ -16,13 +17,13 @@ const youtubers = [
       "Ex Software Engineer @Cure.fit",
     ],
     techLogos: ["SAP", "G", "YT", "TED"],
-    imageUrl: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=400&h=400&q=80",
+    imageUrl: "/mhd_f.jpg",
   },
   {
-    name: "SARAH T.",
-    role: "Full Stack Developer, Tech Educator",
+    name: "Saumya Singh",
+    role: " Software Engineer, YouTuber, Public Speaker",
     youtubeSubscribers: "450K",
-    linkedinFollowers: "180K",
+    linkedinFollowers: "150K",
     achievements: [
       "Senior Developer @Microsoft",
       "Tech Lead @AWS | 450K+ YouTube Family",
@@ -30,13 +31,13 @@ const youtubers = [
       "Top Rated Udemy Instructor",
     ],
     techLogos: ["MS", "AWS", "RE", "UD"],
-    imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&q=80",
+    imageUrl: "/saumya_singh.jpg",
   },
   {
-    name: "ALEX R.",
-    role: "Cloud Architect, DevOps Expert",
-    youtubeSubscribers: "280K",
-    linkedinFollowers: "150K",
+    name: "Sandeep Jain",
+    role: "Founder, CEO of GFG, Public Speaker",
+    youtubeSubscribers: "670K",
+    linkedinFollowers: "300K",
     achievements: [
       "Principal Cloud Architect @AWS",
       "DevOps Evangelist | 280K+ Subscribers",
@@ -44,13 +45,13 @@ const youtubers = [
       "Conference Speaker",
     ],
     techLogos: ["AWS", "K8S", "DO", "GH"],
-    imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&q=80",
+    imageUrl: "/sandeep_j.jpg",
   },
   {
-    name: "PRIYA M.",
-    role: "Mobile App Developer, UI/UX Specialist",
-    youtubeSubscribers: "320K",
-    linkedinFollowers: "175K",
+    name: "Abhishek Kumar",
+    role: "Engineer Manager at Google",
+    youtubeSubscribers: "0",
+    linkedinFollowers: "60K",
     achievements: [
       "Lead Mobile Developer @Spotify",
       "Flutter GDE | 320K+ YouTube Community",
@@ -58,13 +59,13 @@ const youtubers = [
       "Tech Conference Organizer",
     ],
     techLogos: ["FL", "SP", "FG", "UI"],
-    imageUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&q=80",
+    imageUrl: "/abhishek_kumar.jpg",
   },
   {
-    name: "DAVID L.",
-    role: "Game Developer, Graphics Engineer",
-    youtubeSubscribers: "410K",
-    linkedinFollowers: "190K",
+    name: "Raj Vikramaditya",
+    role: "Software Engineer 3, Youtuber, Public Speaker",
+    youtubeSubscribers: "700K",
+    linkedinFollowers: "505K",
     achievements: [
       "Senior Game Dev @Unity",
       "Graphics Programming Expert",
@@ -72,13 +73,13 @@ const youtubers = [
       "Unity Certified Instructor",
     ],
     techLogos: ["UN", "UE", "CG", "VR"],
-    imageUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&q=80",
+    imageUrl: "/rad_adi.jpg",
   },
   {
-    name: "EMMA W.",
-    role: "Security Researcher, Ethical Hacker",
-    youtubeSubscribers: "295K",
-    linkedinFollowers: "160K",
+    name: "Sashank Mishra",
+    role: "Data Engineer, YouTuber, Public Speaker",
+    youtubeSubscribers: "164K",
+    linkedinFollowers: "150K",
     achievements: [
       "Principal Security Engineer @Mozilla",
       "Ethical Hacking Educator",
@@ -86,13 +87,13 @@ const youtubers = [
       "DEFCON Speaker",
     ],
     techLogos: ["MZ", "SEC", "PEN", "CTF"],
-    imageUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&q=80",
+    imageUrl: "/sashank_mishra.jpg",
   },
   {
-    name: "JAMES K.",
-    role: "AI/ML Specialist, Research Scientist",
-    youtubeSubscribers: "520K",
-    linkedinFollowers: "230K",
+    name: "Rocky Bhatia",
+    role: "Architect/Seniour Computer Science at Adobe, Public Speaker",
+    youtubeSubscribers: "125K",
+    linkedinFollowers: "123K",
     achievements: [
       "AI Research Scientist @DeepMind",
       "520K+ ML YouTube Community",
@@ -100,7 +101,7 @@ const youtubers = [
       "Stanford CS Guest Lecturer",
     ],
     techLogos: ["TF", "PT", "AI", "ML"],
-    imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&q=80",
+    imageUrl: "/rocky_b.jpg",
   },
 ]
 
