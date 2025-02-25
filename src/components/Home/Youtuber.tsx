@@ -21,7 +21,7 @@ const youtubers = [
 
     // imageUrl: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=400&h=400&q=80",
     youtubeUrl: "https://youtube.com/@MohammadF",
-    linkedinUrl: "https://linkedin.com/in/mohammadf",
+    linkedinUrl: "https://www.linkedin.com/in/mohammadfraz/",
 
   },
   {
@@ -41,7 +41,7 @@ const youtubers = [
 
     // imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&q=80",
     youtubeUrl: "https://youtube.com/@SarahT",
-    linkedinUrl: "https://linkedin.com/in/saraht",
+    linkedinUrl: "https://www.linkedin.com/in/saumya1singh/",
 
   },
   {
@@ -61,7 +61,7 @@ const youtubers = [
 
     // imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&q=80",
     youtubeUrl: "https://youtube.com/@AlexR",
-    linkedinUrl: "https://linkedin.com/in/alexr",
+    linkedinUrl: "http://linkedin.com/in/sandeep-jain-/",
 
   },
   {
@@ -81,7 +81,7 @@ const youtubers = [
 
     // imageUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&q=80",
     youtubeUrl: "https://youtube.com/@PriyaM",
-    linkedinUrl: "https://linkedin.com/in/priyam",
+    linkedinUrl: "https://www.linkedin.com/in/abhishek0647/",
   },
   {
     name: "Raj Vikramaditya",
@@ -100,7 +100,7 @@ const youtubers = [
 
     // imageUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&q=80",
     youtubeUrl: "https://youtube.com/@DavidL",
-    linkedinUrl: "https://linkedin.com/in/davidl",
+    linkedinUrl: "https://www.linkedin.com/in/rajstriver/",
   },
   {
     name: "Sashank Mishra",
@@ -135,7 +135,7 @@ const youtubers = [
 
     // imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&q=80",
     youtubeUrl: "https://youtube.com/@JamesK",
-    linkedinUrl: "https://linkedin.com/in/jamesk",
+    linkedinUrl: "https://www.linkedin.com/in/rocky-bhatia-a4801010/",
   },
   {
     name: "Rahul Maheshwari",
@@ -149,10 +149,10 @@ const youtubers = [
     ],
     techLogos: ["Ad", "G","citi"],
 
-    imageUrl: "/rocky_b.jpg",
+    imageUrl: "/rahul_m.jpg",
 
     // imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&q=80",
-    linkedinUrl: "https://linkedin.com/in/jamesk",
+    linkedinUrl: "https://www.linkedin.com/in/rahul-cse/",
   },
   {
     name: "Deepak Goyal",
@@ -167,11 +167,11 @@ const youtubers = [
     ],
     techLogos: ["IN"],
 
-    imageUrl: "/rocky_b.jpg",
+    imageUrl: "/deepak_g.jpg",
 
     // imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&q=80",
     youtubeUrl: "https://youtube.com/@JamesK",
-    linkedinUrl: "https://linkedin.com/in/jamesk",
+    linkedinUrl: "https://www.linkedin.com/in/deepak-goyal-1511ab7/",
   },
   {
     name: "Rahul Garg",
@@ -185,7 +185,8 @@ const youtubers = [
     ],
     techLogos: ["AWS"],
 
-    imageUrl: "/rocky_b.jpg",
+    imageUrl: "/rahul_garg.jpg",
+    linkedinUrl: "https://www.linkedin.com/in/rahul-garg-cse/",
 
   },
   {
@@ -199,7 +200,8 @@ const youtubers = [
     ],
     techLogos: ["MS"],
 
-    imageUrl: "/rocky_b.jpg",
+    imageUrl: "/sirdhar.jpg",
+    linkedinUrl: "https://www.linkedin.com/in/vivsridh/",
   },
   {
     name: "Darika Jain",
@@ -213,10 +215,10 @@ const youtubers = [
     ],
     techLogos: ["LI"],
 
-    imageUrl: "/rocky_b.jpg",
+    imageUrl: "/darika_j.jpg",
 
 
-    linkedinUrl: "https://linkedin.com/in/jamesk",
+    linkedinUrl: "https://www.linkedin.com/in/darikajain/",
   },
   {
     name: "Hina Arora",
@@ -230,11 +232,11 @@ const youtubers = [
     ],
     techLogos: ["JIO"],
 
-    imageUrl: "/rocky_b.jpg",
+    imageUrl: "/hina_a.jpg",
 
     // imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&q=80",
     youtubeUrl: "https://youtube.com/@JamesK",
-    linkedinUrl: "https://linkedin.com/in/jamesk",
+    linkedinUrl: "https://www.linkedin.com/in/careerwithhina?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     name: "Dr. Deeksha Sharma",
@@ -247,7 +249,9 @@ const youtubers = [
     ],
     techLogos: ["TF"],
 
-    imageUrl: "/rocky_b.jpg",
+    imageUrl: "/deeksha_sm.jpg",
+    youtubeUrl: "https://youtube.com/@JamesK",
+    linkedinUrl: "https://www.linkedin.com/in/deeksha26/",
   },
   {
     name: "Nishant Chahar",
@@ -262,11 +266,11 @@ const youtubers = [
     ],
     techLogos: ["MS"],
 
-    imageUrl: "/rocky_b.jpg",
+    imageUrl: "/nishant_c.jpg",
 
     // imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&q=80",
     youtubeUrl: "https://youtube.com/@JamesK",
-    linkedinUrl: "https://linkedin.com/in/jamesk",
+    linkedinUrl: "https://www.linkedin.com/in/chaharnishant11/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     name: "M.V. Karan",
@@ -280,7 +284,9 @@ const youtubers = [
     ],
     techLogos: ["TF"],
 
-    imageUrl: "/rocky_b.jpg",
+    imageUrl: "/karan_mv.jpg",
+    youtubeUrl: "https://youtube.com/@JamesK",
+    linkedinUrl: "https://www.linkedin.com/in/mvkaran/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 
   },
 ]
