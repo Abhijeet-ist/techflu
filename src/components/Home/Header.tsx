@@ -64,14 +64,7 @@ export default function Header() {
                             Join as a Participant
                         </NavLink>
 
-                        {/* Additional Content for Mobile View */}
-                        <div className="text-center text-white mt-6">
-                            <h2 className="text-xl font-bold text-orange-500">Join the Innovation!</h2>
-                            <p className="text-sm mt-2 text-gray-300">Be part of Tech-Fluence 4.0, the international-level hackathon where ideas transform into reality.</p>
-                            <Link href="https://forms.gle/example-register" className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg font-bold text-lg shadow-lg transition-all duration-300 hover:bg-orange-600">
-                                Register Now
-                            </Link>
-                        </div>
+                        
                     </motion.div>
                 )}
             </AnimatePresence>

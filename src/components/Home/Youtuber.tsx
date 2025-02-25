@@ -10,12 +10,11 @@ const youtubers = [
     linkedinFollowers: "205K",
     achievements: [
       "Founder LearnYard",
-      "Ex SWE2 @Google | 390K+ subscribers @YouTube |",
-      "TedX Speaker | Ex Educator @Codechef |",
-      "Ex Educator @Unacademy | Ex Educator @Coding Ninjas",
-      "Ex Software Engineer @Cure.fit",
+      "Worked at Google, SAP Labs, and Cure.fit, contributing to scalable software solutions.",
+      "Educated over 500,000 students on platforms like Unacademy, CodeChef, and Coding Ninjas",
+      "Delivered TEDx talks on coding, career growth, and tech innovations."
     ],
-    techLogos: ["SAP", "G", "YT", "TED"],
+    techLogos: ["SAP", "G", "CF"],
 
     imageUrl: "/mhd_f.jpg",
 
@@ -30,12 +29,11 @@ const youtubers = [
     youtubeSubscribers: "450K",
     linkedinFollowers: "150K",
     achievements: [
-      "Senior Developer @Microsoft",
-      "Tech Lead @AWS | 450K+ YouTube Family",
-      "Women in Tech Ambassador",
-      "Top Rated Udemy Instructor",
+      "Helps individuals monetize their online presence.",
+      "Supports entrepreneurs in scaling their businesses.",
+      "Won the International Women in Open Source Academic Award (2020)",
     ],
-    techLogos: ["MS", "AWS", "RE", "UD"],
+    techLogos: ["OS"],
 
     imageUrl: "/saumya_singh.jpg",
 
@@ -50,12 +48,11 @@ const youtubers = [
     youtubeSubscribers: "670K",
     linkedinFollowers: "300K",
     achievements: [
-      "Principal Cloud Architect @AWS",
-      "DevOps Evangelist | 280K+ Subscribers",
-      "AWS Community Builder",
-      "Conference Speaker",
+      "Created one of the largest coding platforms.",
+      "Provides educational content for programmers.",
+      "Helps students and professionals with DSA & interview prep."
     ],
-    techLogos: ["AWS", "K8S", "DO", "GH"],
+    techLogos: ["GFG"],
 
     imageUrl: "/sandeep_j.jpg",
 
@@ -70,12 +67,11 @@ const youtubers = [
     youtubeSubscribers: "0",
     linkedinFollowers: "60K",
     achievements: [
-      "Lead Mobile Developer @Spotify",
-      "Flutter GDE | 320K+ YouTube Community",
-      "Mobile UI/UX Consultant",
-      "Tech Conference Organizer",
+      "Leads two software engineering teams.",
+      "Specializes in scalable distributed systems.",
+      "Actively mentors students and professionals.",
     ],
-    techLogos: ["FL", "SP", "FG", "UI"],
+    techLogos: ["G"],
 
     imageUrl: "/abhishek_kumar.jpg",
 
@@ -94,7 +90,7 @@ const youtubers = [
       "Game Dev YouTuber | 410K+ Subs",
       "Unity Certified Instructor",
     ],
-    techLogos: ["UN", "UE", "CG", "VR"],
+    techLogos: ["YT"],
 
     imageUrl: "/rad_adi.jpg",
 
@@ -108,12 +104,11 @@ const youtubers = [
     youtubeSubscribers: "164K",
     linkedinFollowers: "150K",
     achievements: [
-      "Principal Security Engineer @Mozilla",
-      "Ethical Hacking Educator",
-      "295K+ YouTube Cybersecurity Community",
-      "DEFCON Speaker",
+      "Developed scalable data solutions for enterprise clients.",
+      "Actively contributes to the data engineering community through blogs and webinars.",
+      "Mentors aspiring data professionals."
     ],
-    techLogos: ["MZ", "SEC", "PEN", "CTF"],
+    techLogos: ["MS"],
     imageUrl: "/sashank_mishra.jpg",
     youtubeUrl: "https://youtube.com/@EmmaW",
     linkedinUrl: "https://linkedin.com/in/emmaw",
@@ -129,7 +124,7 @@ const youtubers = [
       "Published ML Researcher",
       "Stanford CS Guest Lecturer",
     ],
-    techLogos: ["TF", "PT", "AI", "ML"],
+    techLogos: ["CS"],
 
     imageUrl: "/rocky_b.jpg",
 
@@ -142,12 +137,11 @@ const youtubers = [
     role: "Founder-LinuxSocials",
     linkedinFollowers: "90K",
     achievements: [
-      "AI Research Scientist @DeepMind",
-      "520K+ ML YouTube Community",
-      "Published ML Researcher",
-      "Stanford CS Guest Lecturer",
+      "Founded LinuxSocials, promoting Linux and open-source technologies.",
+      "Conducts workshops and seminars to educate students and professionals on Linux.",
+      "Develops tutorials and guides to help beginners navigate Linux systems."
     ],
-    techLogos: ["Ad", "G","citi"],
+    techLogos: ["LS"],
 
     imageUrl: "/rahul_m.jpg",
 
@@ -160,12 +154,11 @@ const youtubers = [
     youtubeSubscribers: "125K",
     linkedinFollowers: "123K",
     achievements: [
-      "AI Research Scientist @DeepMind",
-      "520K+ ML YouTube Community",
-      "Published ML Researcher",
-      "Stanford CS Guest Lecturer",
+      "Founded Crewsphere, a collaboration and project management platform.",
+      "Developed innovative remote work solutions for efficient team coordination.",
+      "Leads a tech-driven startup, focusing on improving workplace productivity."
     ],
-    techLogos: ["IN"],
+    techLogos: ["CS"],
 
     imageUrl: "/deepak_g.jpg",
 
@@ -178,12 +171,11 @@ const youtubers = [
     role: "Software Engineer",
 
     achievements: [
-      "AI Research Scientist @DeepMind",
-      "520K+ ML YouTube Community",
-      "Published ML Researcher",
-      "Stanford CS Guest Lecturer",
+      "Established Moglix as a leading B2B commerce platform in the industrial goods sector.",
+      "Recognized in Forbes Asia's 30 Under 30 list.",
+      "Secured significant funding to expand Moglix's operations globally."
     ],
-    techLogos: ["AWS"],
+    techLogos: ["MGLX"],
 
     imageUrl: "/rahul_garg.jpg",
     linkedinUrl: "https://www.linkedin.com/in/rahul-garg-cse/",
@@ -193,10 +185,9 @@ const youtubers = [
     name: "Vivek Sridhar",
     role: "CTO - Microsoft Startup",
     achievements: [
-      "AI Research Scientist @DeepMind",
-      "520K+ ML YouTube Community",
-      "Published ML Researcher",
-      "Stanford CS Guest Lecturer",
+      "Promotes cloud adoption among developers and IT professionals.",
+      "Conducts workshops and seminars on cloud technologies",
+      "Contributes to open-source cloud projects."
     ],
     techLogos: ["MS"],
 
@@ -208,12 +199,10 @@ const youtubers = [
     role: "LinkedIn Conntent Creator",
     linkedinFollowers: "800K",
     achievements: [
-      "AI Research Scientist @DeepMind",
-      "520K+ ML YouTube Community",
-      "Published ML Researcher",
-      "Stanford CS Guest Lecturer",
+      "Content creator with 750K+ followers.",
+      "Inspires and guides students in tech and career growth."
     ],
-    techLogos: ["LI"],
+    techLogos: ["PSM"],
 
     imageUrl: "/darika_j.jpg",
 
@@ -225,12 +214,10 @@ const youtubers = [
     role: "Public Speaker",
     linkedinFollowers: "252K",
     achievements: [
-      "AI Research Scientist @DeepMind",
-      "520K+ ML YouTube Community",
-      "Published ML Researcher",
-      "Stanford CS Guest Lecturer",
+      "Guides students in career planning.",
+      "Offers job preparation tips and mentorship."
     ],
-    techLogos: ["JIO"],
+    techLogos: ["CC"],
 
     imageUrl: "/hina_a.jpg",
 
@@ -242,12 +229,10 @@ const youtubers = [
     name: "Dr. Deeksha Sharma",
     role: "Founder Enso Life- NeuroArt",
     achievements: [
-      "AI Research Scientist @DeepMind",
-      "520K+ ML YouTube Community",
-      "Published ML Researcher",
-      "Stanford CS Guest Lecturer",
+      "Raises awareness about mental well-being in tech.",
+      "Provides resources and support for stress management."
     ],
-    techLogos: ["TF"],
+    techLogos: ["MHA"],
 
     imageUrl: "/deeksha_sm.jpg",
     youtubeUrl: "https://youtube.com/@JamesK",
@@ -259,12 +244,10 @@ const youtubers = [
     youtubeSubscribers: "476K",
     linkedinFollowers: "496K",
     achievements: [
-      "AI Research Scientist @DeepMind",
-      "520K+ ML YouTube Community",
-      "Published ML Researcher",
-      "Stanford CS Guest Lecturer",
+      "Creates coding and interview prep content.",
+      "Influences thousands through YouTube tutorials."
     ],
-    techLogos: ["MS"],
+    techLogos: ["YT"],
 
     imageUrl: "/nishant_c.jpg",
 
@@ -277,12 +260,11 @@ const youtubers = [
     role: "Head, Director DevRel next",
     linkedinFollowers: "10K",
     achievements: [
-      "AI Research Scientist @DeepMind",
-      "520K+ ML YouTube Community",
-      "Published ML Researcher",
-      "Stanford CS Guest Lecturer",
+      "Promotes open-source development.",
+      "Encourages developer collaboration.",
+      "Supports tech communities through GitHub initiatives."
     ],
-    techLogos: ["TF"],
+    techLogos: ["GH"],
 
     imageUrl: "/karan_mv.jpg",
     youtubeUrl: "https://youtube.com/@JamesK",
