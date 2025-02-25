@@ -3,11 +3,8 @@
 import React from "react";
 import Spline from "@splinetool/react-spline";
 import { motion } from "framer-motion";
-import { GoogleGeminiEffectDemo } from "./Geffect";
 
-interface HeroProps {
-    // Add any props here if you plan to pass them
-}
+interface HeroProps { }
 
 interface ImageData {
     id: number;
@@ -29,14 +26,14 @@ const Hero: React.FC<HeroProps> = () => {
     return (
         <div>
             <div className="relative min-h-screen bg-gradient-to-b from-black via-gray-900 to-black overflow-hidden">
-                <div className="absolute top-8 left-0 right-0 z-20 text-center">
+                <div className="absolute top-4 sm:top-6 md:top-8 left-0 right-0 z-20 text-center">
                     <motion.h1
-                        className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-extrabold font-serif text-transparent bg-clip-text bg-gradient-to-r from-orange-800 via-orange-500 to-yellow-300 animate-[color-animation]"
+                        className="text-3xl sm:text-5xl md:text-6xl lg:text-8xl xl:text-9xl font-extrabold font-serif text-transparent bg-clip-text bg-gradient-to-r from-orange-800 via-orange-500 to-yellow-300 animate-[color-animation] px-4"
                         initial={{ opacity: 0, y: -20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 3 }}
                     >
-                        TECHFLUENCE
+                        TECHFLUENCE 4.0
                     </motion.h1>
                 </div>
                 <style jsx>{`
@@ -72,8 +69,8 @@ const Hero: React.FC<HeroProps> = () => {
 
                 {/* Top decorative curve */}
                 <div className="absolute top-0 w-full">
-                    <div className="h-24 bg-gradient-to-b from-orange-500/20 to-transparent" />
-                    <div className="relative h-32">
+                    <div className="h-16 sm:h-20 md:h-24 bg-gradient-to-b from-orange-500/20 to-transparent" />
+                    <div className="relative h-24 sm:h-28 md:h-32">
                         <div className="absolute inset-0 bg-orange-500/40 blur-2xl" />
                         <svg viewBox="0 0 1440 320" className="relative w-full">
                             <path
@@ -85,16 +82,16 @@ const Hero: React.FC<HeroProps> = () => {
                     </div>
                 </div>
 
-                {/* Modified marquee section - keeping original position */}
-                <div className="absolute top-1/2 -translate-y-1/2 w-full overflow-hidden py-10">
-                    <div className="relative flex space-x-8">
-                        <div className="animate-marquee flex space-x-8">
+                {/* Modified marquee section */}
+                <div className="absolute top-1/2 -translate-y-1/2 w-full overflow-hidden py-6 sm:py-8 md:py-10">
+                    <div className="relative flex space-x-4 sm:space-x-6 md:space-x-8">
+                        <div className="animate-marquee flex space-x-4 sm:space-x-6 md:space-x-8">
                             {images.map((image) => (
                                 <motion.img
                                     key={image.id}
                                     src={image.src}
                                     alt={image.alt}
-                                    className="w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 rounded-xl object-cover shadow-2xl shadow-orange-500/20 transition-transform"
+                                    className="w-32 h-32 sm:w-48 sm:h-48 md:w-60 md:h-60 lg:w-72 lg:h-72 xl:w-80 xl:h-80 rounded-xl object-cover shadow-2xl shadow-orange-500/20 transition-transform"
                                     whileHover={{
                                         scale: 1.15,
                                         zIndex: 20,
@@ -110,13 +107,13 @@ const Hero: React.FC<HeroProps> = () => {
                                 />
                             ))}
                         </div>
-                        <div className="animate-marquee flex space-x-8" aria-hidden="true">
+                        <div className="animate-marquee flex space-x-4 sm:space-x-6 md:space-x-8" aria-hidden="true">
                             {images.map((image) => (
                                 <motion.img
                                     key={`dup-${image.id}`}
                                     src={image.src}
                                     alt={image.alt}
-                                    className="w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 rounded-xl object-cover shadow-2xl shadow-orange-500/20 transition-transform"
+                                    className="w-32 h-32 sm:w-48 sm:h-48 md:w-60 md:h-60 lg:w-72 lg:h-72 xl:w-80 xl:h-80 rounded-xl object-cover shadow-2xl shadow-orange-500/20 transition-transform"
                                     whileHover={{
                                         scale: 1.15,
                                         zIndex: 20,
@@ -137,7 +134,7 @@ const Hero: React.FC<HeroProps> = () => {
 
                 {/* Bottom decorative curve */}
                 <div className="absolute bottom-0 w-full">
-                    <div className="relative h-32">
+                    <div className="relative h-24 sm:h-28 md:h-32">
                         <div className="absolute inset-0 bg-orange-500/40 blur-2xl" />
                         <svg viewBox="0 0 1440 320" className="relative w-full">
                             <path
@@ -147,20 +144,23 @@ const Hero: React.FC<HeroProps> = () => {
                             />
                         </svg>
                     </div>
-                    <div className="h-24 bg-gradient-to-t from-orange-500/20 to-transparent" />
-                </div>
-                <div className="absolute bottom-10 left-10 p-7 border border-orange-400 bg-orange-500/20 backdrop-blur-md text-white rounded-lg shadow-lg w-64"></div>
-                <div className="absolute bottom-10 left-10 p-7 border border-orange-400 bg-orange-500/20 backdrop-blur-md text-white rounded-lg shadow-lg w-64">
-                    <p className="text-xl font-bold">North India’s biggest tech event, bringing innovation, insights, and industry leaders together</p>
+                    <div className="h-16 sm:h-20 md:h-24 bg-gradient-to-t from-orange-500/20 to-transparent" />
                 </div>
 
-                <div className="absolute bottom-10 right-10 border border-orange-400 p-7 bg-orange-500/20 backdrop-blur-md text-white rounded-lg shadow-lg w-64">
-                    <p className="text-xl font-bold">Enhance your event experience with seamless guest check-ins and real-time tech-driven insights.</p>
+                {/* Info boxes - Stack on mobile, side by side on larger screens */}
+                <div className="absolute bottom-4 sm:bottom-6 md:bottom-10 w-full px-4 sm:px-6 md:px-10 flex flex-col md:flex-row md:justify-between gap-4 md:gap-8">
+                    <div className="p-4 sm:p-5 md:p-7 border border-orange-400 bg-orange-500/20 backdrop-blur-md text-white rounded-lg shadow-lg md:w-64">
+                        <p className="text-base sm:text-lg md:text-xl font-bold">North India's biggest tech event, bringing innovation, insights, and industry leaders together</p>
+                    </div>
+
+                    <div className="p-4 sm:p-5 md:p-7 border border-orange-400 bg-orange-500/20 backdrop-blur-md text-white rounded-lg shadow-lg md:w-64">
+                        <p className="text-base sm:text-lg md:text-xl font-bold">Enhance your event experience with seamless guest check-ins and real-time tech-driven insights.</p>
+                    </div>
                 </div>
 
                 {/* 3D Robot Model */}
-                <div className="absolute inset-0 z-10 flex items-center justify-center">
-                    <div className="relative w-full h-full max-w-4xl mx-auto">
+                <div className="absolute inset-0 z-10 hidden min-[900px]:flex items-center justify-center">
+                    <div className="relative w-full h-full max-w-3xl sm:max-w-4xl mx-auto">
                         <Spline
                             scene="https://prod.spline.design/d2Zi4YYLrfy6VAKW/scene.splinecode"
                             onLoad={onSplineLoad}
@@ -171,9 +171,7 @@ const Hero: React.FC<HeroProps> = () => {
                 {/* Optional overlay gradient for depth */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/50 pointer-events-none" />
             </div>
-            {/* <GoogleGeminiEffectDemo /> */}
         </div>
-
     );
 };
 

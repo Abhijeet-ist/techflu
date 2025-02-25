@@ -59,6 +59,8 @@ export function HeroStats() {
                                     <p className="text-4xl font-bold text-orange-600 mb-1">{stat.value}</p>
                                     <p className="text-sm text-orange-500">{stat.description}</p>
                                 </div>
+
+                                
                             </Card>
                         </Spotlight>
                     </div>
