@@ -36,7 +36,7 @@ export const TextGenerateEffect = ({
     }, [scope.current]);
 
     return (
-        <div className="bg-gradient-to-b from-black via-orange-500 to-black px-4 sm:px-8 py-16">
+        <div className="bg-gradient-to-b from-black via-orange-950 to-black px-4 sm:px-8 py-16">
             <section className="relative flex items-center justify-center px-4 sm:px-8 py-16">
                 <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     {/* LEFT SIDE - Animated Text */}

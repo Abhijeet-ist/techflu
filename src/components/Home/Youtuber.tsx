@@ -5,13 +5,12 @@ import TechYoutuberCard from "../ui/TechYoutuberCard"
 const youtubers = [
   {
     name: "MOHAMMAD F.",
-    role: "Software Engineer, YouTuber, Public Speaker",
+    role: "Software Engineer, YouTuber",
     youtubeSubscribers: "390K",
     linkedinFollowers: "205K",
     achievements: [
       "Founder LearnYard",
       "Worked at Google, SAP Labs, and Cure.fit, contributing to scalable software solutions.",
-      "Educated over 500,000 students on platforms like Unacademy, CodeChef, and Coding Ninjas",
       "Delivered TEDx talks on coding, career growth, and tech innovations."
     ],
     techLogos: ["SAP", "G", "CF"],
@@ -25,7 +24,7 @@ const youtubers = [
   },
   {
     name: "Saumya Singh",
-    role: " Software Engineer, YouTuber, Public Speaker",
+    role: " Software Engineer, Public Speaker",
     youtubeSubscribers: "450K",
     linkedinFollowers: "150K",
     achievements: [
@@ -81,7 +80,7 @@ const youtubers = [
   },
   {
     name: "Raj Vikramaditya",
-    role: "Software Engineer 3, Youtuber, Public Speaker",
+    role: "Software Engineer 3, Youtuber",
     youtubeSubscribers: "700K",
     linkedinFollowers: "505K",
     achievements: [

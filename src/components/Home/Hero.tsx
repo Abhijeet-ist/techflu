@@ -39,7 +39,7 @@ const Hero: React.FC<HeroProps> = () => {
 
     return (
         <div className="relative min-h-screen bg-gradient-to-b from-black via-gray-900 to-black overflow-hidden">
-            <div className="absolute top-4 sm:top-6 md:top-8 left-0 right-0 z-20 text-center">
+            <div className="absolute top-4 sm:top-6 md:top-8 left-0 right-0 z-1 text-center">
                 <motion.h1
                     className="text-3xl sm:text-5xl md:text-6xl lg:text-8xl xl:text-9xl font-extrabold font-serif text-transparent bg-clip-text bg-gradient-to-r from-orange-800 via-orange-500 to-yellow-300 animate-[color-animation] px-4"
                     initial={{ opacity: 0, y: -20 }}
@@ -199,12 +199,12 @@ const Hero: React.FC<HeroProps> = () => {
 
             {/* 3D Robot Model - Only visible on larger screens */}
             {windowWidth >= 900 && (
-                <div className="absolute inset-0 z-10 flex items-center justify-center">
-                    <div className="relative w-full h-full max-w-3xl sm:max-w-4xl mx-auto">
-                        <Spline scene="https://prod.spline.design/d2Zi4YYLrfy6VAKW/scene.splinecode" onLoad={onSplineLoad} />
-                    </div>
-                </div>
-            )}
+                            <div className="absolute inset-0 z-10 flex items-center justify-center">
+                                <div className="relative w-full h-full max-w-3xl sm:max-w-4xl mx-auto">
+                                    <Spline scene="https://prod.spline.design/d2Zi4YYLrfy6VAKW/scene.splinecode" onLoad={onSplineLoad} />
+                                </div>
+                            </div>
+                        )}
 
             {/* Decorative elements */}
             <div className="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-orange-500/30 to-transparent" />
