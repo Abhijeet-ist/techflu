@@ -2,7 +2,6 @@
 
 import TechYoutuberCard from "../ui/TechYoutuberCard"
 
-
 const youtubers = [
   {
     name: "MOHAMMAD F.",
@@ -18,6 +17,8 @@ const youtubers = [
     ],
     techLogos: ["SAP", "G", "YT", "TED"],
     imageUrl: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=400&h=400&q=80",
+    youtubeUrl: "https://youtube.com/@MohammadF",
+    linkedinUrl: "https://linkedin.com/in/mohammadf",
   },
   {
     name: "SARAH T.",
@@ -32,6 +33,8 @@ const youtubers = [
     ],
     techLogos: ["MS", "AWS", "RE", "UD"],
     imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&q=80",
+    youtubeUrl: "https://youtube.com/@SarahT",
+    linkedinUrl: "https://linkedin.com/in/saraht",
   },
   {
     name: "ALEX R.",
@@ -46,6 +49,8 @@ const youtubers = [
     ],
     techLogos: ["AWS", "K8S", "DO", "GH"],
     imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&q=80",
+    youtubeUrl: "https://youtube.com/@AlexR",
+    linkedinUrl: "https://linkedin.com/in/alexr",
   },
   {
     name: "PRIYA M.",
@@ -60,6 +65,8 @@ const youtubers = [
     ],
     techLogos: ["FL", "SP", "FG", "UI"],
     imageUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&q=80",
+    youtubeUrl: "https://youtube.com/@PriyaM",
+    linkedinUrl: "https://linkedin.com/in/priyam",
   },
   {
     name: "DAVID L.",
@@ -74,6 +81,8 @@ const youtubers = [
     ],
     techLogos: ["UN", "UE", "CG", "VR"],
     imageUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&q=80",
+    youtubeUrl: "https://youtube.com/@DavidL",
+    linkedinUrl: "https://linkedin.com/in/davidl",
   },
   {
     name: "EMMA W.",
@@ -88,6 +97,8 @@ const youtubers = [
     ],
     techLogos: ["MZ", "SEC", "PEN", "CTF"],
     imageUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&q=80",
+    youtubeUrl: "https://youtube.com/@EmmaW",
+    linkedinUrl: "https://linkedin.com/in/emmaw",
   },
   {
     name: "JAMES K.",
@@ -102,6 +113,8 @@ const youtubers = [
     ],
     techLogos: ["TF", "PT", "AI", "ML"],
     imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&q=80",
+    youtubeUrl: "https://youtube.com/@JamesK",
+    linkedinUrl: "https://linkedin.com/in/jamesk",
   },
 ]
 

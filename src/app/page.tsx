@@ -1,14 +1,13 @@
 import Footer from "@/components/Home/Footer";
 import Hero from "@/components/Home/Hero";
 import { HeroParallaxDemo } from "@/components/Home/HeroParallaxDemo";
-import { TimelineDemo } from "@/components/Home/TimelineDemo";
+// import { TimelineDemo } from "@/components/Home/TimelineDemo"; 
 import { Spotlight } from "@/components/ui/spotlight";
 import { HeroScrollDemo } from "@/components/Home/HeroScrollDemo";
 import Loop from "@/components/Home/InfiniteMovingCardsDemo";
 import { TextGenerateEffectDemo } from "@/components/Home/TextGenerateEffectDemo";
 import Header from "@/components/Home/Header";
 import FAQ from "@/components/Home/faq";
-import TechYoutuberCard from "@/components/Home/tech-youtuber";
 import Youtuber from "@/components/Home/Youtuber";
 
 
@@ -23,18 +22,11 @@ export default function Home() {
           <Hero />
         </div>
         <div>
-          <TechYoutuberCard />
-
-        </div>
-        {/* <div>
-          <EventPoster />
-        </div> */}
-        <div>
           <TextGenerateEffectDemo />
         </div>
-        <div>
+        {/* <div>
           <TimelineDemo />
-        </div>
+        </div> */}
         <div>
           <Youtuber />
         </div>
