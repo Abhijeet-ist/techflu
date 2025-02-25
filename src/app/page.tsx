@@ -8,6 +8,7 @@ import Loop from "@/components/Home/InfiniteMovingCardsDemo";
 import { TextGenerateEffectDemo } from "@/components/Home/TextGenerateEffectDemo";
 import Header from "@/components/Home/Header";
 import FAQ from "@/components/Home/faq";
+import TechYoutuberCard from "@/components/Home/tech-youtuber";
 
 export default function Home() {
   return (
@@ -19,6 +20,13 @@ export default function Home() {
         <div>
           <Hero />
         </div>
+        <div>
+          <TechYoutuberCard />
+
+        </div>
+        {/* <div>
+          <EventPoster />
+        </div> */}
         <div>
           <TextGenerateEffectDemo />
         </div>
