@@ -69,7 +69,7 @@ const Hero: React.FC<HeroProps> = () => {
                         Welcome to the TechFLUENCE 2025, where the future unfolds! Whether you're a professional, a curious newcomer, or a business leader looking to harness the power of Tech, this conference is designed to inspire, educate, and connect.
                     </motion.p>
                     <motion.a
-                        href="https://forms.google.com/your-registration-form-url"
+                        href="https://forms.gle/arYSSwoYPxeLzQ2o8"
                         className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-orange-500 to-yellow-500 text-white font-bold rounded-full transition-all hover:from-orange-600 hover:to-yellow-600 transform hover:scale-105"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}

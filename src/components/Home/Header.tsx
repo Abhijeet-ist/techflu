@@ -1,9 +1,9 @@
 "use client";
 
-import { useState } from "react";
-import Link from "next/link";
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import Link from "next/link";
+import { useState } from "react";
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -19,10 +19,10 @@ export default function Header() {
                 {/* Desktop Navigation */}
                 <nav className="hidden md:flex space-x-6">
                     <NavLink href="/">Home</NavLink>
-                    <NavLink href="https://forms.gle/example-speaker" external>
+                    <NavLink href="https://forms.gle/arYSSwoYPxeLzQ2o8" external>
                         Inspire as a Speaker
                     </NavLink>
-                    <NavLink href="https://forms.gle/example-participant" external>
+                    <NavLink href="https://forms.gle/arYSSwoYPxeLzQ2o8" external>
                         Join as a Participant
                     </NavLink>
                 </nav>
@@ -57,14 +57,14 @@ export default function Header() {
                         <NavLink href="/" onClick={() => setIsOpen(false)}>
                             Home
                         </NavLink>
-                        <NavLink href="https://forms.gle/example-speaker" external onClick={() => setIsOpen(false)}>
+                        <NavLink href="https://forms.gle/arYSSwoYPxeLzQ2o8" external onClick={() => setIsOpen(false)}>
                             Inspire as a Speaker
                         </NavLink>
-                        <NavLink href="https://forms.gle/example-participant" external onClick={() => setIsOpen(false)}>
+                        <NavLink href="https://forms.gle/arYSSwoYPxeLzQ2o8" external onClick={() => setIsOpen(false)}>
                             Join as a Participant
                         </NavLink>
 
-                        
+
                     </motion.div>
                 )}
             </AnimatePresence>
