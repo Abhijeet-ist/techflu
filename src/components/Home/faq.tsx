@@ -19,17 +19,20 @@ const faqData: FAQItem[] = [
     {
         id: 2,
         question: "What is the dress code for the conference?",
-        answer: "Business casual attire is recommended for all conference sessions and events.",
+        answer:
+            "There's nothing I really wanted to do in life that I wasn't able to get good at. That's my skill. I'm not really specifically talented at anything except for the ability to learn. That's what I do. That's what I'm here for. Don't be afraid to be wrong because you can't learn anything from a compliment. I always felt like I could do anything. That's the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can't do anything, you won't do anything. I was taught I could do everything.",
     },
     {
         id: 3,
         question: "What is the dress code for the conference?",
-        answer: "Business casual attire is recommended for all conference sessions and events.",
+        answer:
+            "There's nothing I really wanted to do in life that I wasn't able to get good at. That's my skill. I'm not really specifically talented at anything except for the ability to learn. That's what I do. That's what I'm here for. Don't be afraid to be wrong because you can't learn anything from a compliment. I always felt like I could do anything. That's the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can't do anything, you won't do anything. I was taught I could do everything.",
     },
     {
         id: 4,
         question: "What is the dress code for the conference?",
-        answer: "Business casual attire is recommended for all conference sessions and events.",
+        answer:
+            "There's nothing I really wanted to do in life that I wasn't able to get good at. That's my skill. I'm not really specifically talented at anything except for the ability to learn. That's what I do. That's what I'm here for. Don't be afraid to be wrong because you can't learn anything from a compliment. I always felt like I could do anything. That's the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can't do anything, you won't do anything. I was taught I could do everything.",
     },
 ]
 
@@ -79,4 +82,3 @@ export default function FAQ() {
         </div>
     )
 }
-
