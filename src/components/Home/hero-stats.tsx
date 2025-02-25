@@ -3,32 +3,32 @@
 import { Card } from "@/components/ui/card";
 import { Spotlight } from "@/components/ui/spotlight";
 import { cn } from "@/lib/utils";
-import { Activity, MessageSquare, Users } from "lucide-react";
+import { ThumbsUp, Eye, MessageSquare, Users } from "lucide-react";
 
 const stats = [
     {
-        icon: Users,
-        title: "Event Attendees",
-        value: "1500+",
-        description: "People joined our events",
+        icon: ThumbsUp,
+        title: "Likes",
+        value: "3135+",
+        description: "Still Counting",
+    },
+    {
+        icon: Eye,
+        title: "Views",
+        value: "1,84,400+",
+        description: "Still Counting",
     },
     {
         icon: MessageSquare,
-        title: "Feedback Received",
-        value: "200+",
-        description: "Valuable insights from attendees",
-    },
-    {
-        icon: Activity,
-        title: "Events Organized",
-        value: "30+",
-        description: "Successful tech events",
+        title: "Comments",
+        value: "1100+",
+        description: "Still Counting",
     },
     {
         icon: Users,
         title: "Speakers",
         value: "16",
-        description: "Events Speakers",
+        description: "Still Counting",
     },
 ];
 
