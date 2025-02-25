@@ -1,7 +1,6 @@
 "use client"
 
-import TechYoutuberCard from "../ui/TechYoutuberCard"
-
+import TechYoutuberCard from "@/components/TechYoutuberCard"
 
 const youtubers = [
   {
@@ -105,7 +104,7 @@ const youtubers = [
   },
 ]
 
-export default function Youtuber() {
+export default function Home() {
   return (
     <div className="min-h-screen w-full bg-gradient-to-br from-black via-orange-950 to-black p-8">
       {/* Title with Glow */}
