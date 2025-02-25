@@ -10,7 +10,7 @@ export function HeroScrollDemo() {
         titleComponent={
           <>
             <h1 className="text-4xl font-semibold text-white dark:text-white">
-              03 March <br />
+              28-Feb & 03-March <br />
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
                 Upcoming Event
               </span>

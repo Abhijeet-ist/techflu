@@ -124,9 +124,9 @@ export default function Youtuber() {
       {/* Title with Glow */}
       <div className="text-center mb-12">
         <h1 className="text-6xl font-script mb-2 bg-gradient-to-r from-orange-400 via-orange-300 to-orange-500 text-transparent bg-clip-text drop-shadow-[0_0_10px_rgba(255,106,0,0.3)]">
-          Our
+          Inspiring Voices
         </h1>
-        <h2 className="text-2xl tracking-[0.2em] text-white font-bold">TECH YOUTUBERS</h2>
+        <h2 className="text-2xl tracking-[0.2em] text-white font-bold">OF TECHFLUENCE</h2>
       </div>
 
       {/* Grid Container */}

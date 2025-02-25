@@ -110,7 +110,7 @@ export default function TechYoutuberCard({
             </button>
           </div>
 
-          <div className="absolute -right-4 top-20 w-20 h-20 sm:w-28 sm:h-28">
+          <div className="absolute right-4 top-5 w-20 h-20 sm:w-28 sm:h-28">
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-orange-500 to-red-500 blur-xl opacity-50 animate-pulse" />
             <div className="relative w-full h-full rounded-full border-4 border-orange-500 overflow-hidden shadow-[0_0_15px_rgba(255,106,0,0.5)]">
               <Image
