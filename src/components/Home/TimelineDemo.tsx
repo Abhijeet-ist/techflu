@@ -14,54 +14,54 @@ export function TimelineDemo() {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
-                            src="/IMG_0118.JPG"
+                            src="/sp1_1c.JPG"
+                            alt="startup template"
+                            width={500}
+                            height={500}
+                            className="rounded-lg object-cover h-60 md:h-74 lg:h-90 w-full shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
+                        />
+                        <Image
+                            src="/sp1_2c.JPG"
                             alt="startup template"
                             width={300}
                             height={300}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
                         />
                         <Image
-                            src="/IMG_2118.JPG"
+                            src="/sp1_3.JPG"
                             alt="startup template"
                             width={300}
                             height={300}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
                         />
                         <Image
-                            src="/IMG_0118.JPG"
+                            src="/sp1_4.JPG"
                             alt="startup template"
                             width={300}
                             height={300}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
                         />
                         <Image
-                            src="/2T8A3007.JPG"
+                            src="/sp1_5.JPG"
                             alt="startup template"
                             width={300}
                             height={300}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
                         />
                         <Image
-                            src="/IMG_0118.JPG"
+                            src="/sp1_6.JPG"
                             alt="startup template"
                             width={300}
                             height={300}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
                         />
-                        <Image
-                            src="/IMG_0118.JPG"
+                        {/* <Image
+                            src="/sp1_7c.JPG"
                             alt="startup template"
                             width={300}
                             height={300}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
-                        />
-                        <Image
-                            src="/IMG_0118.JPG"
-                            alt="startup template"
-                            width={300}
-                            height={300}
-                            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
-                        />
+                        /> */}
                     </div>
                 </div>
             ),
