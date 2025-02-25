@@ -22,7 +22,7 @@ export const products = [
         title: "ph12",
         link: "#",
         thumbnail:
-            "/IMG_2302.JPG",
+            "/IMG_2231.JPG",
     },
 
     {
@@ -65,37 +65,37 @@ export const products = [
         title: "ph6",
         link: "#",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
+            "/IMG_9976.JPG",
     },
     {
         title: "ph5",
         link: "#",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
+            "/IMG_9972.JPG",
     },
 
     {
         title: "ph4",
         link: "#",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
+            "/IMG_2161.JPG",
     },
     {
         title: "ph3",
         link: "#",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
+            "/IMG_2171.JPG",
     },
     {
         title: "ph2",
         link: "#",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/invoker.png",
+            "/IMG_2162.JPG",
     },
     {
         title: "ph1",
         link: "#",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
+            "/IMG_2242.JPG",
     },
 ];
