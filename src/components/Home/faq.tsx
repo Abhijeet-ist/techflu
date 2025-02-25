@@ -12,27 +12,39 @@ interface FAQItem {
 const faqData: FAQItem[] = [
     {
         id: 1,
-        question: "What is the dress code for the conference?",
+        question: "Is there a dress code for speakers and panelists?",
         answer:
-            "There's nothing I really wanted to do in life that I wasn't able to get good at. That's my skill. I'm not really specifically talented at anything except for the ability to learn. That's what I do. That's what I'm here for. Don't be afraid to be wrong because you can't learn anything from a compliment. I always felt like I could do anything. That's the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can't do anything, you won't do anything. I was taught I could do everything.",
+            "Yes, speakers and panelists are requested to wear business or smart casual attire to maintain a professional atmosphere.",
     },
     {
         id: 2,
-        question: "What is the dress code for the conference?",
+        question: "Can I attend only specific sessions?",
         answer:
-            "There's nothing I really wanted to do in life that I wasn't able to get good at. That's my skill. I'm not really specifically talented at anything except for the ability to learn. That's what I do. That's what I'm here for. Don't be afraid to be wrong because you can't learn anything from a compliment. I always felt like I could do anything. That's the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can't do anything, you won't do anything. I was taught I could do everything.",
+            "Yes, you can attend selected sessions, but we encourage full participation to make the most of the event experience.",
     },
     {
         id: 3,
-        question: "What is the dress code for the conference?",
+        question: "Is on-the-spot registration available?",
         answer:
-            "There's nothing I really wanted to do in life that I wasn't able to get good at. That's my skill. I'm not really specifically talented at anything except for the ability to learn. That's what I do. That's what I'm here for. Don't be afraid to be wrong because you can't learn anything from a compliment. I always felt like I could do anything. That's the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can't do anything, you won't do anything. I was taught I could do everything.",
+            "Limited on-the-spot registration may be available, but we recommend registering online in advance to secure your spot.",
     },
     {
         id: 4,
-        question: "What is the dress code for the conference?",
+        question: "Are there any special accommodations for differently-abled attendees?",
         answer:
-            "There's nothing I really wanted to do in life that I wasn't able to get good at. That's my skill. I'm not really specifically talented at anything except for the ability to learn. That's what I do. That's what I'm here for. Don't be afraid to be wrong because you can't learn anything from a compliment. I always felt like I could do anything. That's the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can't do anything, you won't do anything. I was taught I could do everything.",
+            "Yes, the venue is wheelchair accessible, and assistance will be provided if needed. Please mention any special requirements during registration.",
+    },
+    {
+        id: 5,
+        question: "Do I need to carry an ID card for entry?",
+        answer:
+            "Yes, all attendees must carry their LPU student ID or a government-issued ID for verification.",
+    },
+    {
+        id: 6,
+        question: "Will there be food and refreshments at the event?",
+        answer:
+            "Yes, refreshments will be available for all registered attendees during scheduled breaks.",
     },
 ]
 
@@ -52,7 +64,7 @@ export default function FAQ() {
                 <div className="max-w-4xl mx-auto">
                     <h1 className="text-4xl md:text-6xl font-bold text-white text-center mb-6">Frequently asked questions</h1>
                     <p className="text-lg text-white/80 text-center mb-12">
-                        Welcome to the AI Conference 2023 FAQ section. We&apos;re here to address your most common queries and
+                        Welcome to the AI Conference 2025 FAQ section. We&apos;re here to address your most common queries and
                         provide you with the information you need to make the most of your conference experience.
                     </p>
 

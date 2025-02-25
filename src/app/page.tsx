@@ -1,7 +1,7 @@
 import Footer from "@/components/Home/Footer";
 import Hero from "@/components/Home/Hero";
 import { HeroParallaxDemo } from "@/components/Home/HeroParallaxDemo";
-import { TimelineDemo } from "@/components/Home/TimelineDemo";
+// import { TimelineDemo } from "@/components/Home/TimelineDemo"; 
 import { Spotlight } from "@/components/ui/spotlight";
 import { HeroScrollDemo } from "@/components/Home/HeroScrollDemo";
 import Loop from "@/components/Home/InfiniteMovingCardsDemo";
@@ -24,9 +24,9 @@ export default function Home() {
         <div>
           <TextGenerateEffectDemo />
         </div>
-        <div>
+        {/* <div>
           <TimelineDemo />
-        </div>
+        </div> */}
         <div>
           <Youtuber />
         </div>

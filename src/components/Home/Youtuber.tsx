@@ -2,7 +2,6 @@
 
 import TechYoutuberCard from "../ui/TechYoutuberCard"
 
-
 const youtubers = [
   {
     name: "MOHAMMAD F.",
@@ -17,7 +16,13 @@ const youtubers = [
       "Ex Software Engineer @Cure.fit",
     ],
     techLogos: ["SAP", "G", "YT", "TED"],
+
     imageUrl: "/mhd_f.jpg",
+
+    // imageUrl: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=400&h=400&q=80",
+    youtubeUrl: "https://youtube.com/@MohammadF",
+    linkedinUrl: "https://linkedin.com/in/mohammadf",
+
   },
   {
     name: "Saumya Singh",
@@ -31,7 +36,13 @@ const youtubers = [
       "Top Rated Udemy Instructor",
     ],
     techLogos: ["MS", "AWS", "RE", "UD"],
+
     imageUrl: "/saumya_singh.jpg",
+
+    // imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&q=80",
+    youtubeUrl: "https://youtube.com/@SarahT",
+    linkedinUrl: "https://linkedin.com/in/saraht",
+
   },
   {
     name: "Sandeep Jain",
@@ -45,7 +56,13 @@ const youtubers = [
       "Conference Speaker",
     ],
     techLogos: ["AWS", "K8S", "DO", "GH"],
+
     imageUrl: "/sandeep_j.jpg",
+
+    // imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&q=80",
+    youtubeUrl: "https://youtube.com/@AlexR",
+    linkedinUrl: "https://linkedin.com/in/alexr",
+
   },
   {
     name: "Abhishek Kumar",
@@ -59,7 +76,12 @@ const youtubers = [
       "Tech Conference Organizer",
     ],
     techLogos: ["FL", "SP", "FG", "UI"],
+
     imageUrl: "/abhishek_kumar.jpg",
+
+    // imageUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&q=80",
+    youtubeUrl: "https://youtube.com/@PriyaM",
+    linkedinUrl: "https://linkedin.com/in/priyam",
   },
   {
     name: "Raj Vikramaditya",
@@ -73,7 +95,12 @@ const youtubers = [
       "Unity Certified Instructor",
     ],
     techLogos: ["UN", "UE", "CG", "VR"],
+
     imageUrl: "/rad_adi.jpg",
+
+    // imageUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&q=80",
+    youtubeUrl: "https://youtube.com/@DavidL",
+    linkedinUrl: "https://linkedin.com/in/davidl",
   },
   {
     name: "Sashank Mishra",
@@ -87,7 +114,9 @@ const youtubers = [
       "DEFCON Speaker",
     ],
     techLogos: ["MZ", "SEC", "PEN", "CTF"],
-    imageUrl: "/sashank_mishra.jpg",
+    imageUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&q=80",
+    youtubeUrl: "https://youtube.com/@EmmaW",
+    linkedinUrl: "https://linkedin.com/in/emmaw",
   },
   {
     name: "Rocky Bhatia",
@@ -101,7 +130,12 @@ const youtubers = [
       "Stanford CS Guest Lecturer",
     ],
     techLogos: ["TF", "PT", "AI", "ML"],
+
     imageUrl: "/rocky_b.jpg",
+
+    // imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&q=80",
+    youtubeUrl: "https://youtube.com/@JamesK",
+    linkedinUrl: "https://linkedin.com/in/jamesk",
   },
 ]
 
@@ -111,9 +145,9 @@ export default function Home() {
       {/* Title with Glow */}
       <div className="text-center mb-12">
         <h1 className="text-6xl font-script mb-2 bg-gradient-to-r from-orange-400 via-orange-300 to-orange-500 text-transparent bg-clip-text drop-shadow-[0_0_10px_rgba(255,106,0,0.3)]">
-          Our
+          Inspiring Voices
         </h1>
-        <h2 className="text-2xl tracking-[0.2em] text-white font-bold">TECH YOUTUBERS</h2>
+        <h2 className="text-2xl tracking-[0.2em] text-white font-bold">OF TECHFLUENCE</h2>
       </div>
 
       {/* Grid Container */}
