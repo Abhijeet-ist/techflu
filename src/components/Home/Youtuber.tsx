@@ -64,7 +64,7 @@ const youtubers = [
   {
     name: "Abhishek Kumar",
     role: "Engineer Manager at Google",
-    youtubeSubscribers: "0",
+    youtubeSubscribers: "",
     linkedinFollowers: "60K",
     achievements: [
       "Leads two software engineering teams.",
