@@ -156,12 +156,12 @@ export function TimelineDemo() {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         {[
-                            { src: "/sp_1.jpg", alt: "Speaker 1", description: "Abhishek Ranjan" },
-                            { src: "/sp_2.jpg", alt: "Speaker 2", description: "Shivani Gera" },
-                            { src: "/sp_3.jpg", alt: "Speaker 3", description: "Shivangi Narula" },
-                            { src: "/sp_4.jpg", alt: "Speaker 4", description: "Rocky Bhatia" },
-                            { src: "/sp_5.jpg", alt: "Speaker 5", description: "Rajya Vardhan Mishra" },
-                            { src: "/sp_6.jpg", alt: "Speaker 6", description: "Ajay Suneja" },
+                            { src: "/sp_1.jpg", alt: "Speaker 1", description: "Abhishek Ranjan", linkedin: 500, instagram: 300 },
+                            { src: "/sp_2.jpg", alt: "Speaker 2", description: "Shivani Gera", linkedin: 400, instagram: 250 },
+                            { src: "/sp_3.jpg", alt: "Speaker 3", description: "Shivangi Narula", linkedin: 600, instagram: 350 },
+                            { src: "/sp_4.jpg", alt: "Speaker 4", description: "Rocky Bhatia", linkedin: 450, instagram: 200 },
+                            { src: "/sp_5.jpg", alt: "Speaker 5", description: "Rajya Vardhan Mishra", linkedin: 550, instagram: 400 },
+                            { src: "/sp_6.jpg", alt: "Speaker 6", description: "Ajay Suneja", linkedin: 300, instagram: 150 },
                         ].map((item, index) => (
                             <div key={index} className="relative group">
                                 <Image
@@ -171,8 +171,18 @@ export function TimelineDemo() {
                                     height={600}
                                     className="rounded-lg object-cover h-50 md:h-74 lg:h-90 w-full shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset] group-hover:opacity-75 transition-opacity duration-300"
                                 />
-                                <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <p className="text-white text-center">{item.description}</p>
+                                <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    <p className="text-white text-center mb-2">{item.description}</p>
+                                    <div className="flex space-x-4">
+                                        <div className="flex items-center space-x-1">
+                                            <img src="/linkedin-icon.png" alt="LinkedIn" className="w-6 h-6" />
+                                            <span className="text-white">{item.linkedin}</span>
+                                        </div>
+                                        <div className="flex items-center space-x-1">
+                                            <img src="/instagram-icon.png" alt="Instagram" className="w-6 h-6" />
+                                            <span className="text-white">{item.instagram}</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         ))}
