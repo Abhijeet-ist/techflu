@@ -36,21 +36,21 @@ export const TextGenerateEffect = ({
     }, [scope.current]);
 
     return (
-        <div className="bg-gradient-to-b from-black via-orange-500 to-black px-8 py-16">
-            <section className="relative h-92 flex items-center justify-center px-8 py-16">
+        <div className="bg-gradient-to-b from-black via-orange-500 to-black px-4 sm:px-8 py-16">
+            <section className="relative flex items-center justify-center px-4 sm:px-8 py-16">
                 <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     {/* LEFT SIDE - Animated Text */}
                     <motion.div ref={scope} className="text-left">
-                        <h1 className="text-9xl md:text-8xl font-serif font-extrabold text-white mb-6 relative overflow-hidden">
+                        <h1 className="text-5xl sm:text-7xl md:text-8xl font-serif font-extrabold text-white mb-6 relative overflow-hidden">
                             <span className="relative inline-block bg-clip-text text-transparent bg-gradient-to-r from-orange-400 via-white to-orange-400 animate-shine">
                                 About TechFluence
                             </span>
                         </h1>
-                        <motion.div className="text-gray-200 text-lg md:text-xl leading-relaxed">
+                        <motion.div className="text-gray-200 text-base sm:text-lg md:text-xl leading-relaxed">
                             {wordsArray.map((word, idx) => (
                                 <motion.span
                                     key={word + idx}
-                                    className="inline-block opacity-0 text-[25px] blur-md mx-1"
+                                    className="inline-block opacity-0 text-[20px] sm:text-[25px] blur-md mx-1"
                                     initial={{ opacity: 0, filter: "blur(4px)" }}
                                     animate={{ opacity: 1, filter: "blur(0px)" }}
                                     transition={{ duration: duration, delay: idx * 0.1 }}
@@ -73,7 +73,7 @@ export const TextGenerateEffect = ({
                             <img
                                 src="/banner.jpeg"
                                 alt="TechFluence Event"
-                                className="rounded-xl shadow-lg border-2 border-transparent w-full max-w-xl md:max-w-2xl"
+                                className="rounded-xl shadow-lg border-2 border-transparent w-full max-w-xs sm:max-w-sm md:max-w-2xl"
                             />
                         </div>
                     </motion.div>

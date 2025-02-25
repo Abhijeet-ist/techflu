@@ -21,9 +21,9 @@ export function HeroScrollDemo() {
         <Image
           src={`/banner.jpeg`}
           alt="hero"
-          height={720}
-          width={1400}
-          className="mx-auto rounded-2xl object-cover h-full object-left-top w-full"
+          layout="fill"
+          objectFit="cover"
+          className="rounded-2xl"
           draggable={false}
         />
       </ContainerScroll>
