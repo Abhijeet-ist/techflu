@@ -137,9 +137,155 @@ const youtubers = [
     youtubeUrl: "https://youtube.com/@JamesK",
     linkedinUrl: "https://linkedin.com/in/jamesk",
   },
+  {
+    name: "Rahul Maheshwari",
+    role: "Founder-LinuxSocials",
+    linkedinFollowers: "90K",
+    achievements: [
+      "AI Research Scientist @DeepMind",
+      "520K+ ML YouTube Community",
+      "Published ML Researcher",
+      "Stanford CS Guest Lecturer",
+    ],
+    techLogos: ["Ad", "G","citi"],
+
+    imageUrl: "/rocky_b.jpg",
+
+    // imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&q=80",
+    linkedinUrl: "https://linkedin.com/in/jamesk",
+  },
+  {
+    name: "Deepak Goyal",
+    role: "Founder- Crewsphere",
+    youtubeSubscribers: "125K",
+    linkedinFollowers: "123K",
+    achievements: [
+      "AI Research Scientist @DeepMind",
+      "520K+ ML YouTube Community",
+      "Published ML Researcher",
+      "Stanford CS Guest Lecturer",
+    ],
+    techLogos: ["IN"],
+
+    imageUrl: "/rocky_b.jpg",
+
+    // imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&q=80",
+    youtubeUrl: "https://youtube.com/@JamesK",
+    linkedinUrl: "https://linkedin.com/in/jamesk",
+  },
+  {
+    name: "Rahul Garg",
+    role: "Software Engineer",
+
+    achievements: [
+      "AI Research Scientist @DeepMind",
+      "520K+ ML YouTube Community",
+      "Published ML Researcher",
+      "Stanford CS Guest Lecturer",
+    ],
+    techLogos: ["AWS"],
+
+    imageUrl: "/rocky_b.jpg",
+
+  },
+  {
+    name: "Vivek Sridhar",
+    role: "CTO - Microsoft Startup",
+    achievements: [
+      "AI Research Scientist @DeepMind",
+      "520K+ ML YouTube Community",
+      "Published ML Researcher",
+      "Stanford CS Guest Lecturer",
+    ],
+    techLogos: ["MS"],
+
+    imageUrl: "/rocky_b.jpg",
+  },
+  {
+    name: "Darika Jain",
+    role: "LinkedIn Conntent Creator",
+    linkedinFollowers: "800K",
+    achievements: [
+      "AI Research Scientist @DeepMind",
+      "520K+ ML YouTube Community",
+      "Published ML Researcher",
+      "Stanford CS Guest Lecturer",
+    ],
+    techLogos: ["LI"],
+
+    imageUrl: "/rocky_b.jpg",
+
+
+    linkedinUrl: "https://linkedin.com/in/jamesk",
+  },
+  {
+    name: "Hina Arora",
+    role: "Public Speaker",
+    linkedinFollowers: "252K",
+    achievements: [
+      "AI Research Scientist @DeepMind",
+      "520K+ ML YouTube Community",
+      "Published ML Researcher",
+      "Stanford CS Guest Lecturer",
+    ],
+    techLogos: ["JIO"],
+
+    imageUrl: "/rocky_b.jpg",
+
+    // imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&q=80",
+    youtubeUrl: "https://youtube.com/@JamesK",
+    linkedinUrl: "https://linkedin.com/in/jamesk",
+  },
+  {
+    name: "Dr. Deeksha Sharma",
+    role: "Founder Enso Life- NeuroArt",
+    achievements: [
+      "AI Research Scientist @DeepMind",
+      "520K+ ML YouTube Community",
+      "Published ML Researcher",
+      "Stanford CS Guest Lecturer",
+    ],
+    techLogos: ["TF"],
+
+    imageUrl: "/rocky_b.jpg",
+  },
+  {
+    name: "Nishant Chahar",
+    role: "Founder of Tayyari , Ex- Microsoft",
+    youtubeSubscribers: "476K",
+    linkedinFollowers: "496K",
+    achievements: [
+      "AI Research Scientist @DeepMind",
+      "520K+ ML YouTube Community",
+      "Published ML Researcher",
+      "Stanford CS Guest Lecturer",
+    ],
+    techLogos: ["MS"],
+
+    imageUrl: "/rocky_b.jpg",
+
+    // imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&q=80",
+    youtubeUrl: "https://youtube.com/@JamesK",
+    linkedinUrl: "https://linkedin.com/in/jamesk",
+  },
+  {
+    name: "M.V. Karan",
+    role: "Head, Director DevRel next",
+    linkedinFollowers: "10K",
+    achievements: [
+      "AI Research Scientist @DeepMind",
+      "520K+ ML YouTube Community",
+      "Published ML Researcher",
+      "Stanford CS Guest Lecturer",
+    ],
+    techLogos: ["TF"],
+
+    imageUrl: "/rocky_b.jpg",
+
+  },
 ]
 
-export default function Home() {
+export default function Youtuber() {
   return (
     <div className="min-h-screen w-full bg-gradient-to-br from-black via-orange-950 to-black p-8">
       {/* Title with Glow */}
@@ -149,7 +295,6 @@ export default function Home() {
         </h1>
         <h2 className="text-2xl tracking-[0.2em] text-white font-bold">OF TECHFLUENCE</h2>
       </div>
-
       {/* Grid Container */}
       <div className="max-w-[2100px] mx-auto">
         {/* First Row */}
@@ -159,17 +304,29 @@ export default function Home() {
           ))}
         </div>
 
-        {/* Second Row */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {youtubers.slice(3, 6).map((youtuber, index) => (
             <TechYoutuberCard key={index} {...youtuber} />
           ))}
         </div>
-
-        {/* Third Row - Centered */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          {youtubers.slice(6, 9).map((youtuber, index) => (
+            <TechYoutuberCard key={index} {...youtuber} />
+          ))}
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          {youtubers.slice(9, 12).map((youtuber, index) => (
+            <TechYoutuberCard key={index} {...youtuber} />
+          ))}
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          {youtubers.slice(12, 15).map((youtuber, index) => (
+            <TechYoutuberCard key={index} {...youtuber} />
+          ))}
+        </div>
         <div className="flex justify-center">
           <div className="w-full md:w-1/3">
-            <TechYoutuberCard {...youtubers[6]} />
+            <TechYoutuberCard {...youtubers[15]} />
           </div>
         </div>
       </div>

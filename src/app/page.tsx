@@ -9,6 +9,8 @@ import { TextGenerateEffectDemo } from "@/components/Home/TextGenerateEffectDemo
 import Header from "@/components/Home/Header";
 import FAQ from "@/components/Home/faq";
 import Youtuber from "@/components/Home/Youtuber";
+import Youtuber1 from "@/components/Home/Yotuber1";
+import Youtuber2 from "@/components/Home/Youtuber2";
 
 
 export default function Home() {
