@@ -114,7 +114,7 @@ const youtubers = [
   },
   {
     name: "Rocky Bhatia",
-    role: "Architect/Seniour Computer Science at Adobe, Public Speaker",
+    role: "Architect/SCS at Adobe",
     youtubeSubscribers: "125K",
     linkedinFollowers: "123K",
     achievements: [
@@ -277,7 +277,7 @@ export default function Youtuber() {
     <div className="min-h-screen w-full bg-gradient-to-br from-black via-orange-950 to-black p-8">
       {/* Title with Glow */}
       <div className="text-center mb-12">
-        <h1 className="text-6xl font-script mb-2 bg-gradient-to-r from-orange-400 via-orange-300 to-orange-500 text-transparent bg-clip-text drop-shadow-[0_0_10px_rgba(255,106,0,0.3)]">
+        <h1 className="text-6xl font-extrabold font-script mb-2 bg-gradient-to-r from-orange-400 via-orange-300 to-orange-500 text-transparent bg-clip-text drop-shadow-[0_0_10px_rgba(255,106,0,0.3)]">
           Inspiring Voices
         </h1>
         <h2 className="text-2xl tracking-[0.2em] text-white font-bold">OF TECHFLUENCE</h2>
