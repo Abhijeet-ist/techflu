@@ -45,7 +45,7 @@ export default function Header() {
                         animate={{ x: 0 }}
                         exit={{ x: "100%" }}
                         transition={{ duration: 0.3, ease: "easeInOut" }}
-                        className="fixed top-0 right-0 w-2/3 h-full bg-black shadow-lg z-50 flex flex-col items-center space-y-6 py-16"
+                        className="fixed top-0 right-0 w-2/3 h-full bg-black shadow-lg z-50 flex flex-col items-center space-y-6 py-16 px-6"
                     >
                         <button
                             className="absolute top-5 right-5 text-orange-500 focus:outline-none"
@@ -63,6 +63,15 @@ export default function Header() {
                         <NavLink href="https://forms.gle/example-participant" external onClick={() => setIsOpen(false)}>
                             Join as a Participant
                         </NavLink>
+
+                        {/* Additional Content for Mobile View */}
+                        <div className="text-center text-white mt-6">
+                            <h2 className="text-xl font-bold text-orange-500">Join the Innovation!</h2>
+                            <p className="text-sm mt-2 text-gray-300">Be part of Tech-Fluence 4.0, the international-level hackathon where ideas transform into reality.</p>
+                            <Link href="https://forms.gle/example-register" className="mt-4 bg-orange-500 text-white px-6 py-2 rounded-lg font-bold text-lg shadow-lg transition-all duration-300 hover:bg-orange-600">
+                                Register Now
+                            </Link>
+                        </div>
                     </motion.div>
                 )}
             </AnimatePresence>
@@ -71,7 +80,7 @@ export default function Header() {
 }
 
 /* Utility Component for Links */
-const NavLink = ({ href, children, external = false, onClick }: any) => (
+const NavLink = ({ href, children, external = false, onClick }) => (
     <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
         {external ? (
             <a
