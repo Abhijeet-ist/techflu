@@ -26,11 +26,11 @@ const Hero: React.FC<HeroProps> = () => {
 
     // Enhanced image data with icons and compelling descriptions
     const images: ImageData[] = [
-        { id: 1, src: "/image1.png", alt: "AI Innovation", icon: <Cpu className="w-6 h-6 text-yellow-300" /> },
-        { id: 2, src: "/image2.png", alt: "Blockchain Solutions", icon: <Code className="w-6 h-6 text-yellow-300" /> },
-        { id: 3, src: "/image3.png", alt: "XR Experience", icon: <Globe className="w-6 h-6 text-yellow-300" /> },
-        { id: 4, src: "/image4.png", alt: "Quantum Computing", icon: <Zap className="w-6 h-6 text-yellow-300" /> },
-        { id: 5, src: "/image5.png", alt: "IoT Revolution", icon: <Trophy className="w-6 h-6 text-yellow-300" /> },
+        { id: 1, src: "/image1.jpeg", alt: "AI Innovation", icon: <Cpu className="w-6 h-6 text-yellow-300" /> },
+        { id: 2, src: "/image2.jpeg", alt: "Blockchain Solutions", icon: <Code className="w-6 h-6 text-yellow-300" /> },
+        { id: 3, src: "/image3.jpeg", alt: "XR Experience", icon: <Globe className="w-6 h-6 text-yellow-300" /> },
+        { id: 4, src: "/image4.jpeg", alt: "Quantum Computing", icon: <Zap className="w-6 h-6 text-yellow-300" /> },
+        { id: 5, src: "/image5.jpeg", alt: "IoT Revolution", icon: <Trophy className="w-6 h-6 text-yellow-300" /> },
     ]
 
     const onSplineLoad = (): void => {
@@ -66,8 +66,7 @@ const Hero: React.FC<HeroProps> = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.5, duration: 0.8 }}
                     >
-                        Join the ultimate international hackathon where innovation meets technology. Showcase your skills,
-                        collaborate with global talents, and create the future!
+                        Welcome to the TechFLUENCE 2025, where the future unfolds! Whether you're a professional, a curious newcomer, or a business leader looking to harness the power of Tech, this conference is designed to inspire, educate, and connect.
                     </motion.p>
                     <motion.a
                         href="https://forms.google.com/your-registration-form-url"
@@ -90,11 +89,11 @@ const Hero: React.FC<HeroProps> = () => {
                         {[...images, ...images].map((image, index) => (
                             <motion.div
                                 key={`top-${index}`}
-                                className="relative group mx-4 sm:mx-5 md:mx-6"
+                                className="relative group mx-2 sm:mx-3 md:mx-4"
                                 whileHover={{
-                                    scale: 1.15,
+                                    scale: 1.1,
                                     zIndex: 30,
-                                    rotate: index % 2 === 0 ? -5 : 5,
+                                    rotate: index % 2 === 0 ? -3 : 3,
                                     transition: { duration: 0.3 },
                                 }}
                             >
@@ -107,7 +106,7 @@ const Hero: React.FC<HeroProps> = () => {
                                 <motion.img
                                     src={image.src}
                                     alt={image.alt}
-                                    className="w-64 h-64 sm:w-56 sm:h-56 md:w-72 md:h-72 lg:w-96 lg:h-96 rounded-xl object-cover shadow-2xl shadow-orange-500/30 relative z-10"
+                                    className="w-80 h-auto sm:w-64 sm:h-auto md:w-72 md:h-auto lg:w-96 lg:h-auto rounded-xl object-cover shadow-2xl shadow-orange-500/30 relative z-10"
                                 />
                                 <motion.div
                                     className="absolute -bottom-2 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4 rounded-b-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-center z-20"
@@ -124,6 +123,8 @@ const Hero: React.FC<HeroProps> = () => {
                     </div>
                 </div>
             </div>
+
+
 
             {/* Floating particles */}
             <div className="absolute inset-0 z-0 pointer-events-none">
@@ -177,7 +178,7 @@ const Hero: React.FC<HeroProps> = () => {
                 >
                     <Globe className="w-8 h-8 text-yellow-300 mb-2" />
                     <p className="text-base sm:text-lg md:text-xl font-bold">
-                        Global innovation hub with participants from 50+ countries
+                        North India’s biggest tech event, bringing innovation, insights, and industry leaders together
                     </p>
                 </motion.div>
 
@@ -191,7 +192,7 @@ const Hero: React.FC<HeroProps> = () => {
                 >
                     <Cpu className="w-8 h-8 text-yellow-300 mb-2" />
                     <p className="text-base sm:text-lg md:text-xl font-bold">
-                        Cutting-edge challenges with mentorship from industry leaders
+                        Enhance your event experience with seamless guest check-ins and real-time tech-driven insights.
                     </p>
                 </motion.div>
             </div>
@@ -228,6 +229,13 @@ const Hero: React.FC<HeroProps> = () => {
                 .animate-marquee-ltr {
                     width: 100%;
                     animation: marquee-ltr 40s linear infinite;
+                }
+            `}</style>
+            <style jsx global>{`
+                @media (max-width: 768px) {
+                    .absolute.top-1/2.-translate-y-1/2.w-full.overflow-hidden.py-20.z-10 .w-[200%]{
+                        width: 300%;
+                    }
                 }
             `}</style>
         </div>
