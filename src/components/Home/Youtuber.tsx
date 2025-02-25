@@ -114,7 +114,7 @@ const youtubers = [
       "DEFCON Speaker",
     ],
     techLogos: ["MZ", "SEC", "PEN", "CTF"],
-    imageUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&q=80",
+    imageUrl: "/sashank_mishra.jpg",
     youtubeUrl: "https://youtube.com/@EmmaW",
     linkedinUrl: "https://linkedin.com/in/emmaw",
   },

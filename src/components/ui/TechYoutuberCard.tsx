@@ -51,19 +51,19 @@ export default function TechYoutuberCard({
     <div
       className="card-container relative w-full max-w-lg mx-auto transition-transform duration-200 ease-out perspective-1000 p-4"
       style={{
-        transform: `rotateX(${rotation.x}deg) rotateY(${rotation.y}deg)`,
-        transformStyle: "preserve-3d",
+      transform: `rotateX(${rotation.x}deg) rotateY(${rotation.y}deg)`,
+      transformStyle: "preserve-3d",
       }}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
     >
       <div className="relative bg-gradient-to-br from-orange-950 via-black to-orange-900 rounded-2xl p-6 shadow-2xl overflow-hidden border border-orange-500/20">
-        <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent pointer-events-none" />
 
-        <div className="relative z-10">
-          <h3 className="text-3xl sm:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600 mb-4 sm:mb-6">
-            {name}
-          </h3>
+      <div className="relative z-10">
+        <h3 className="text-3xl sm:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600 mb-4 sm:mb-6">
+        {name}
+        </h3>
 
           <div className="flex flex-wrap gap-4 items-center mb-4 sm:mb-6">
             {techLogos.map((logo, i) => (
@@ -116,8 +116,8 @@ export default function TechYoutuberCard({
               <Image
                 src={imageUrl}
                 alt={`${name}'s profile picture`}
-                width={80}
-                height={80}
+                layout="fill"
+                objectFit="cover"
                 className="object-cover"
               />
             </div>
