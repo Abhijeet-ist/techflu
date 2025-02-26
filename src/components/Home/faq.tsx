@@ -12,39 +12,39 @@ interface FAQItem {
 const faqData: FAQItem[] = [
     {
         id: 1,
-        question: "Is there a dress code for students?",
+        question: "What is Techfluence 4?",
         answer:
-            "Yes, students are requested to wear smart casual attire to maintain a professional atmosphere.",
+            "Techfluence 4 is LPU’s premier tech event featuring expert talks, workshops, and networking opportunities.",
     },
     {
         id: 2,
-        question: "Can I attend only specific sessions?",
+        question: "Who can attend this event?",
         answer:
-            "Yes, you can attend selected sessions, but we encourage full participation to make the most of the event experience.",
+            "Students, tech enthusiasts, and professionals from any background can attend.",
     },
     {
         id: 3,
-        question: "Is on-the-spot registration available?",
+        question: "What will I gain from attending?",
         answer:
-            "Limited on-the-spot registration may be available, but we recommend registering online in advance to secure your spot.",
+            "You'll learn about cutting-edge technologies, network with industry leaders, and receive a participation certificate.",
     },
-    {
-        id: 4,
-        question: "Are there any special accommodations for differently-abled attendees?",
-        answer:
-            "Yes, the venue is wheelchair accessible, and assistance will be provided if needed. Please mention any special requirements during registration.",
-    },
+    // {
+    //     id: 4,
+    //     question: "Are there any special accommodations for differently-abled attendees?",
+    //     answer:
+    //         "Yes, the venue is wheelchair accessible, and assistance will be provided if needed. Please mention any special requirements during registration.",
+    // },
     {
         id: 5,
         question: "Do I need to carry an ID card for entry?",
         answer:
-            "Yes, all attendees must carry their LPU student ID or a government-issued ID for verification.",
+            "Yes, all attendees must carry their LPU student ID. ",
     },
     {
         id: 6,
-        question: "Will there be food and refreshments at the event?",
+        question: "How can I register for the event?",
         answer:
-            "Unfortunately, food and refreshments will not be provided at the event. We recommend attendees make their own arrangements.",
+            "Click the Register Now / Join as participant button on this website and fill out the form.",
     },
 ]
 
