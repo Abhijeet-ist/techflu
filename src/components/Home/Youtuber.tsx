@@ -22,7 +22,44 @@ const youtubers = [
     linkedinUrl: "https://www.linkedin.com/in/mohammadfraz/",
 
   },
+  {
+    name: "Saumya Singh",
+    role: " Software Engineer, Public Speaker",
+    youtubeSubscribers: "450K",
+    linkedinFollowers: "150K",
+    achievements: [
+      "Helps individuals monetize their online presence.",
+      "Supports entrepreneurs in scaling their businesses.",
+      "Won the International Women in Open Source Academic Award (2020)",
+    ],
+    techLogos: ["OS"],
 
+    imageUrl: "/saumya_singh.jpg",
+
+    // imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&q=80",
+    youtubeUrl: "https://youtube.com/@SarahT",
+    linkedinUrl: "https://www.linkedin.com/in/saumya1singh/",
+
+  },
+  {
+    name: "Sandeep Jain",
+    role: "Founder, CEO of GFG, Public Speaker",
+    youtubeSubscribers: "670K",
+    linkedinFollowers: "300K",
+    achievements: [
+      "Created one of the largest coding platforms.",
+      "Provides educational content for programmers.",
+      "Helps students and professionals with DSA & interview prep."
+    ],
+    techLogos: ["GFG"],
+
+    imageUrl: "/sandeep_j.jpg",
+
+    // imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&q=80",
+    youtubeUrl: "https://youtube.com/@AlexR",
+    linkedinUrl: "http://linkedin.com/in/sandeep-jain-/",
+
+  },
   {
     name: "Abhishek Kumar",
     role: "Engineer Manager at Google",
