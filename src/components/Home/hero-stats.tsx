@@ -23,13 +23,7 @@ const stats = [
         title: "Comments",
         value: "1100+",
         description: "Still Counting",
-    },
-    {
-        icon: Users,
-        title: "Speakers",
-        value: "16",
-        description: "Still Counting",
-    },
+    }
 ];
 
 export function HeroStats() {

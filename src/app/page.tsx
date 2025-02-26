@@ -10,8 +10,6 @@ import Header from "@/components/Home/Header";
 import FAQ from "@/components/Home/faq";
 import Youtuber from "@/components/Home/Youtuber";
 
-
-
 export default function Home() {
   return (
     <div>
