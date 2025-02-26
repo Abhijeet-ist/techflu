@@ -119,7 +119,7 @@ const Loop = () => {
   };
 
   return (
-    <main className="relative flex flex-col items-center justify-center min-h-screen overflow-hidden ">
+    <main className="relative flex flex-col items-center justify-center mt-12 min-h-screen overflow-hidden ">
       {/* Animated Header */}
       <motion.div
         className="relative z-10 text-center mb-16 w-full max-w-4xl px-4"
@@ -134,7 +134,7 @@ const Loop = () => {
           className="mb-6"
         >
           <h2 className="text-7xl font-bold mb-2">
-            {"Voice of Our Users".split("").map((letter, index) => (
+            {"Voice of Our Attendees".split("").map((letter, index) => (
               <motion.span
                 key={index}
                 variants={letterAnimation}
