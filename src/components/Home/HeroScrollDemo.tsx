@@ -18,7 +18,7 @@ export function HeroScrollDemo() {
         }
       >
         <Image
-          src={`/banner.jpeg`}
+          src={`/banner.jpg`}
           alt="hero"
           layout="fill"
           objectFit="full"
