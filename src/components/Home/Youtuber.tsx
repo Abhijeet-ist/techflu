@@ -6,8 +6,8 @@ const youtubers = [
   {
     name: "MOHAMMAD FARAZ",
     role: "Software Engineer, YouTuber",
-    youtubeSubscribers: "390K",
-    linkedinFollowers: "205K",
+    youtubeSubscribers: "496K",
+    linkedinFollowers: "254K",
     achievements: [
       "Founder LearnYard",
       "Worked at Google, SAP Labs, and Cure.fit, contributing to scalable software solutions.",
@@ -22,44 +22,7 @@ const youtubers = [
     linkedinUrl: "https://www.linkedin.com/in/mohammadfraz/",
 
   },
-  {
-    name: "Saumya Singh",
-    role: " Software Engineer, Public Speaker",
-    youtubeSubscribers: "450K",
-    linkedinFollowers: "150K",
-    achievements: [
-      "Helps individuals monetize their online presence.",
-      "Supports entrepreneurs in scaling their businesses.",
-      "Won the International Women in Open Source Academic Award (2020)",
-    ],
-    techLogos: ["OS"],
 
-    imageUrl: "/saumya_singh.jpg",
-
-    // imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&q=80",
-    youtubeUrl: "https://youtube.com/@SarahT",
-    linkedinUrl: "https://www.linkedin.com/in/saumya1singh/",
-
-  },
-  {
-    name: "Sandeep Jain",
-    role: "Founder, CEO of GFG, Public Speaker",
-    youtubeSubscribers: "670K",
-    linkedinFollowers: "300K",
-    achievements: [
-      "Created one of the largest coding platforms.",
-      "Provides educational content for programmers.",
-      "Helps students and professionals with DSA & interview prep."
-    ],
-    techLogos: ["GFG"],
-
-    imageUrl: "/sandeep_j.jpg",
-
-    // imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&q=80",
-    youtubeUrl: "https://youtube.com/@AlexR",
-    linkedinUrl: "http://linkedin.com/in/sandeep-jain-/",
-
-  },
   {
     name: "Abhishek Kumar",
     role: "Engineer Manager at Google",
@@ -81,8 +44,8 @@ const youtubers = [
   {
     name: "Sashank Mishra",
     role: "Data Engineer, YouTuber, Public Speaker",
-    youtubeSubscribers: "164K",
-    linkedinFollowers: "150K",
+    youtubeSubscribers: "178K",
+    linkedinFollowers: "177K",
     achievements: [
       "Developed scalable data solutions for enterprise clients.",
       "Actively contributes to the data engineering community through blogs and webinars.",
@@ -96,8 +59,8 @@ const youtubers = [
   {
     name: "Rocky Bhatia",
     role: "Architect/SCS at Adobe",
-    youtubeSubscribers: "125K",
-    linkedinFollowers: "123K",
+    youtubeSubscribers: "6.32K",
+    linkedinFollowers: "171K",
     achievements: [
       "AI Research Scientist @DeepMind",
       "520K+ ML YouTube Community",
@@ -115,7 +78,8 @@ const youtubers = [
   {
     name: "Rahul Maheshwari",
     role: "Founder-LinuxSocials",
-    linkedinFollowers: "90K",
+    youtubeSubscribers: "25K",
+    linkedinFollowers: "93K",
     achievements: [
       "Founded LinuxSocials, promoting Linux and open-source technologies.",
       "Conducts workshops and seminars to educate students and professionals on Linux.",
@@ -162,8 +126,8 @@ const youtubers = [
   {
     name: "Saumya Singh",
     role: " Software Engineer, Public Speaker",
-    youtubeSubscribers: "450K",
-    linkedinFollowers: "150K",
+    youtubeSubscribers: "27K",
+    linkedinFollowers: "235K",
     achievements: [
       "Helps individuals monetize their online presence.",
       "Supports entrepreneurs in scaling their businesses.",
@@ -182,8 +146,8 @@ const youtubers = [
   {
     name: "Sandeep Jain",
     role: "Founder, CEO of GFG, Public Speaker",
-    youtubeSubscribers: "670K",
-    linkedinFollowers: "300K",
+    youtubeSubscribers: "936K",
+    linkedinFollowers: "329K",
     achievements: [
       "Created one of the largest coding platforms.",
       "Provides educational content for programmers.",
@@ -204,7 +168,7 @@ const youtubers = [
     role: "LinkedIn Conntent Creator",
     linkedinFollowers: "800K",
     achievements: [
-      "Content creator with 750K+ followers.",
+      "Content creator with 800K+ followers.",
       "Inspires and guides students in tech and career growth."
     ],
     techLogos: ["PSM"],
@@ -217,7 +181,7 @@ const youtubers = [
   {
     name: "Hina Arora",
     role: "Public Speaker",
-    linkedinFollowers: "252K",
+    linkedinFollowers: "254K",
     achievements: [
       "Guides students in career planning.",
       "Offers job preparation tips and mentorship."
