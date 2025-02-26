@@ -272,7 +272,7 @@ export default function Youtuber() {
             <TechYoutuberCard {...youtubers[6]} />
           </div>
         </div>
-        <h1 className="font-extrabold text-5xl ml-10">Season 03</h1>
+        <h1 className="font-extrabold text-5xl mt-12 ml-10">Season 03</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {youtubers.slice(7, 10).map((youtuber, index) => (
             <TechYoutuberCard key={index} {...youtuber} />
