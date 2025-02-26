@@ -9,19 +9,19 @@ const stats = [
     {
         icon: ThumbsUp,
         title: "Likes",
-        value: "3135+",
+        value: "40,000+",
         description: "Still Counting",
     },
     {
         icon: Eye,
         title: "Views",
-        value: "1,84,400+",
+        value: "1.8M+",
         description: "Still Counting",
     },
     {
         icon: MessageSquare,
         title: "Comments",
-        value: "1100+",
+        value: "5000+",
         description: "Still Counting",
     }
 ];

@@ -22,44 +22,7 @@ const youtubers = [
     linkedinUrl: "https://www.linkedin.com/in/mohammadfraz/",
 
   },
-  {
-    name: "Saumya Singh",
-    role: " Software Engineer, Public Speaker",
-    youtubeSubscribers: "450K",
-    linkedinFollowers: "150K",
-    achievements: [
-      "Helps individuals monetize their online presence.",
-      "Supports entrepreneurs in scaling their businesses.",
-      "Won the International Women in Open Source Academic Award (2020)",
-    ],
-    techLogos: ["OS"],
 
-    imageUrl: "/saumya_singh.jpg",
-
-    // imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&q=80",
-    youtubeUrl: "https://youtube.com/@SarahT",
-    linkedinUrl: "https://www.linkedin.com/in/saumya1singh/",
-
-  },
-  {
-    name: "Sandeep Jain",
-    role: "Founder, CEO of GFG, Public Speaker",
-    youtubeSubscribers: "670K",
-    linkedinFollowers: "300K",
-    achievements: [
-      "Created one of the largest coding platforms.",
-      "Provides educational content for programmers.",
-      "Helps students and professionals with DSA & interview prep."
-    ],
-    techLogos: ["GFG"],
-
-    imageUrl: "/sandeep_j.jpg",
-
-    // imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&q=80",
-    youtubeUrl: "https://youtube.com/@AlexR",
-    linkedinUrl: "http://linkedin.com/in/sandeep-jain-/",
-
-  },
   {
     name: "Abhishek Kumar",
     role: "Engineer Manager at Google",
@@ -147,21 +110,6 @@ const youtubers = [
     linkedinUrl: "https://www.linkedin.com/in/deepak-goyal-1511ab7/",
   },
   {
-    name: "Rahul Garg",
-    role: "Software Engineer",
-
-    achievements: [
-      "Established Moglix as a leading B2B commerce platform in the industrial goods sector.",
-      "Recognized in Forbes Asia's 30 Under 30 list.",
-      "Secured significant funding to expand Moglix's operations globally."
-    ],
-    techLogos: ["MGLX"],
-
-    imageUrl: "/rahul_garg.jpg",
-    linkedinUrl: "https://www.linkedin.com/in/rahul-garg-cse/",
-
-  },
-  {
     name: "Vivek Sridhar",
     role: "CTO - Microsoft Startup",
     achievements: [
@@ -174,6 +122,46 @@ const youtubers = [
     imageUrl: "/sirdhar.jpg",
     linkedinUrl: "https://www.linkedin.com/in/vivsridh/",
   },
+  {
+    name: "Saumya Singh",
+    role: " Software Engineer, Public Speaker",
+    youtubeSubscribers: "450K",
+    linkedinFollowers: "150K",
+    achievements: [
+      "Helps individuals monetize their online presence.",
+      "Supports entrepreneurs in scaling their businesses.",
+      "Won the International Women in Open Source Academic Award (2020)",
+    ],
+    techLogos: ["OS"],
+
+    imageUrl: "/saumya_singh.jpg",
+
+    // imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&q=80",
+    youtubeUrl: "https://youtube.com/@SarahT",
+    linkedinUrl: "https://www.linkedin.com/in/saumya1singh/",
+
+  },
+
+  {
+    name: "Sandeep Jain",
+    role: "Founder, CEO of GFG, Public Speaker",
+    youtubeSubscribers: "670K",
+    linkedinFollowers: "300K",
+    achievements: [
+      "Created one of the largest coding platforms.",
+      "Provides educational content for programmers.",
+      "Helps students and professionals with DSA & interview prep."
+    ],
+    techLogos: ["GFG"],
+
+    imageUrl: "/sandeep_j.jpg",
+
+    // imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&q=80",
+    youtubeUrl: "https://youtube.com/@AlexR",
+    linkedinUrl: "http://linkedin.com/in/sandeep-jain-/",
+
+  },
+
   {
     name: "Darika Jain",
     role: "LinkedIn Conntent Creator",
@@ -266,7 +254,7 @@ export default function Youtuber() {
       {/* Grid Container */}
       <div className="max-w-[2100px] mx-auto">
         {/* First Row */}
-        <h1 className="font-extrabold text-5xl ml-10">Season1</h1>
+        <h1 className="font-extrabold text-5xl ml-10">Season 01</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {youtubers.slice(0, 3).map((youtuber, index) => (
             <TechYoutuberCard key={index} {...youtuber} />
@@ -278,26 +266,29 @@ export default function Youtuber() {
             <TechYoutuberCard key={index} {...youtuber} />
           ))}
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-          {youtubers.slice(6, 9).map((youtuber, index) => (
-            <TechYoutuberCard key={index} {...youtuber} />
-          ))}
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-          {youtubers.slice(9, 12).map((youtuber, index) => (
-            <TechYoutuberCard key={index} {...youtuber} />
-          ))}
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-          {youtubers.slice(12, 15).map((youtuber, index) => (
-            <TechYoutuberCard key={index} {...youtuber} />
-          ))}
-        </div>
-        {/* <div className="flex justify-center">
+        <h1 className="font-extrabold text-5xl ml-10">Season 02</h1>
+        <div className="flex">
           <div className="w-full md:w-1/3">
-            <TechYoutuberCard {...youtubers[15]} />
+            <TechYoutuberCard {...youtubers[6]} />
           </div>
-        </div> */}
+        </div>
+        <h1 className="font-extrabold text-5xl ml-10">Season 03</h1>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          {youtubers.slice(7, 10).map((youtuber, index) => (
+            <TechYoutuberCard key={index} {...youtuber} />
+          ))}
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          {youtubers.slice(10, 13).map((youtuber, index) => (
+            <TechYoutuberCard key={index} {...youtuber} />
+          ))}
+        </div>
+        <div className="flex">
+          <div className="w-full md:w-1/3">
+            <TechYoutuberCard {...youtubers[13]} />
+          </div>
+        </div>
+
       </div>
     </div>
   )
