@@ -52,7 +52,7 @@ export default function FAQ() {
     const [openItem, setOpenItem] = useState<number | null>(1)
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-red-900 via-orange-600 to-yellow-500 relative overflow-hidden">
+        <div className="min-h-fit bg-gradient-to-br from-red-900 via-orange-600 to-yellow-500 relative overflow-hidden">
             {/* Hexagonal background pattern */}
             <div className="absolute inset-0 opacity-10">
                 <div className="absolute top-0 left-0 w-64 h-64 bg-white rounded-full blur-3xl" />
@@ -91,6 +91,7 @@ export default function FAQ() {
                     </div>
                 </div>
             </div>
+
         </div>
     )
 }
