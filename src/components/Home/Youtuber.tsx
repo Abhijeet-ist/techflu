@@ -4,7 +4,7 @@ import TechYoutuberCard from "../ui/TechYoutuberCard"
 
 const youtubers = [
   {
-    name: "MOHAMMAD F.",
+    name: "MOHAMMAD FARAZ",
     role: "Software Engineer, YouTuber",
     youtubeSubscribers: "390K",
     linkedinFollowers: "205K",
@@ -61,25 +61,6 @@ const youtubers = [
 
   },
   
-  {
-    name: "Raj Vikramaditya",
-    role: "Software Engineer 3, Youtuber",
-    youtubeSubscribers: "700K",
-    linkedinFollowers: "505K",
-    achievements: [
-      "Senior Game Dev @Unity",
-      "Graphics Programming Expert",
-      "Game Dev YouTuber | 410K+ Subs",
-      "Unity Certified Instructor",
-    ],
-    techLogos: ["YT"],
-
-    imageUrl: "/rad_adi.jpg",
-
-    // imageUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&q=80",
-    youtubeUrl: "https://youtube.com/@DavidL",
-    linkedinUrl: "https://www.linkedin.com/in/rajstriver/",
-  },
   {
     name: "Sashank Mishra",
     role: "Data Engineer, YouTuber, Public Speaker",
@@ -268,6 +249,7 @@ export default function Youtuber() {
       {/* Grid Container */}
       <div className="max-w-[2100px] mx-auto">
         {/* First Row */}
+        <h1 className="font-extrabold text-5xl ml-10">Season1</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {youtubers.slice(0, 3).map((youtuber, index) => (
             <TechYoutuberCard key={index} {...youtuber} />
@@ -294,11 +276,11 @@ export default function Youtuber() {
             <TechYoutuberCard key={index} {...youtuber} />
           ))}
         </div>
-        <div className="flex justify-center">
+        {/* <div className="flex justify-center">
           <div className="w-full md:w-1/3">
             <TechYoutuberCard {...youtubers[15]} />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )

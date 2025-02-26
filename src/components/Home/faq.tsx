@@ -12,9 +12,9 @@ interface FAQItem {
 const faqData: FAQItem[] = [
     {
         id: 1,
-        question: "Is there a dress code for speakers and panelists?",
+        question: "Is there a dress code for students?",
         answer:
-            "Yes, speakers and panelists are requested to wear business or smart casual attire to maintain a professional atmosphere.",
+            "Yes, students are requested to wear smart casual attire to maintain a professional atmosphere.",
     },
     {
         id: 2,
@@ -44,7 +44,7 @@ const faqData: FAQItem[] = [
         id: 6,
         question: "Will there be food and refreshments at the event?",
         answer:
-            "Yes, refreshments will be available for all registered attendees during scheduled breaks.",
+            "Unfortunately, food and refreshments will not be provided at the event. We recommend attendees make their own arrangements.",
     },
 ]
 
