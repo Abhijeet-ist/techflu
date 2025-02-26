@@ -80,7 +80,6 @@ export default function TechYoutuberCard({
 
           <div className="flex flex-col sm:flex-row gap-6 mb-6">
             <button
-              onClick={() => window.open(youtubeUrl, "_blank")}
               className="flex items-center gap-3 sm:gap-4 group cursor-pointer transform hover:scale-105 transition-all duration-300"
             >
               <div className="p-2 sm:p-3 rounded-full bg-gradient-to-br from-red-500/20 to-red-500/10 group-hover:shadow-[0_0_20px_rgba(255,0,0,0.3)] transition-shadow duration-300">

@@ -17,8 +17,6 @@ const youtubers = [
 
     imageUrl: "/mhd_f.jpg",
 
-    // imageUrl: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=400&h=400&q=80",
-    youtubeUrl: "https://youtube.com/@MohammadF",
     linkedinUrl: "https://www.linkedin.com/in/mohammadfraz/",
 
   },
@@ -27,7 +25,7 @@ const youtubers = [
     name: "Abhishek Kumar",
     role: "Engineer Manager at Google",
     youtubeSubscribers: "",
-    linkedinFollowers: "60K",
+    linkedinFollowers: "140K",
     achievements: [
       "Specializes in scalable distributed systems.",
       "Actively mentors students and professionals.",
@@ -36,8 +34,6 @@ const youtubers = [
 
     imageUrl: "/abhishek_kumar.jpg",
 
-    // imageUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&q=80",
-    youtubeUrl: "https://youtube.com/@PriyaM",
     linkedinUrl: "https://www.linkedin.com/in/abhishek0647/",
   },
   {
@@ -52,7 +48,7 @@ const youtubers = [
     ],
     techLogos: ["MS"],
     imageUrl: "/sashank_mishra.jpg",
-    youtubeUrl: "https://youtube.com/@EmmaW",
+
     linkedinUrl: "https://linkedin.com/in/emmaw",
   },
   {
@@ -70,8 +66,6 @@ const youtubers = [
 
     imageUrl: "/rocky_b.jpg",
 
-    // imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&q=80",
-    youtubeUrl: "https://youtube.com/@JamesK",
     linkedinUrl: "https://www.linkedin.com/in/rocky-bhatia-a4801010/",
   },
   {
@@ -88,14 +82,13 @@ const youtubers = [
 
     imageUrl: "/rahul_m.jpg",
 
-    // imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&q=80",
     linkedinUrl: "https://www.linkedin.com/in/rahul-cse/",
   },
   {
     name: "Deepak Goyal",
     role: "Founder- Crewsphere",
-    youtubeSubscribers: "125K",
-    linkedinFollowers: "123K",
+    youtubeSubscribers: "",
+    linkedinFollowers: "",
     achievements: [
       "Founded Crewsphere, a collaboration and project management platform.",
       "Developed innovative remote work solutions for efficient team coordination.",
@@ -105,8 +98,6 @@ const youtubers = [
 
     imageUrl: "/deepak_g.jpg",
 
-    // imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&q=80",
-    youtubeUrl: "https://youtube.com/@JamesK",
     linkedinUrl: "https://www.linkedin.com/in/deepak-goyal-1511ab7/",
   },
   {
@@ -136,8 +127,6 @@ const youtubers = [
 
     imageUrl: "/saumya_singh.jpg",
 
-    // imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&q=80",
-    youtubeUrl: "https://youtube.com/@SarahT",
     linkedinUrl: "https://www.linkedin.com/in/saumya1singh/",
 
   },
@@ -156,8 +145,6 @@ const youtubers = [
 
     imageUrl: "/sandeep_j.jpg",
 
-    // imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&q=80",
-    youtubeUrl: "https://youtube.com/@AlexR",
     linkedinUrl: "http://linkedin.com/in/sandeep-jain-/",
 
   },
@@ -188,9 +175,6 @@ const youtubers = [
     techLogos: ["CC"],
 
     imageUrl: "/hina_a.jpg",
-
-    // imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&q=80",
-    youtubeUrl: "https://youtube.com/@JamesK",
     linkedinUrl: "https://www.linkedin.com/in/careerwithhina?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
@@ -203,7 +187,6 @@ const youtubers = [
     techLogos: ["MHA"],
 
     imageUrl: "/deeksha_sm.jpg",
-    youtubeUrl: "https://youtube.com/@JamesK",
     linkedinUrl: "https://www.linkedin.com/in/deeksha26/",
   },
   {
@@ -219,14 +202,13 @@ const youtubers = [
 
     imageUrl: "/nishant_c.jpg",
 
-    // imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&q=80",
-    youtubeUrl: "https://youtube.com/@JamesK",
+
     linkedinUrl: "https://www.linkedin.com/in/chaharnishant11/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     name: "M.V. Karan",
     role: "Head, Director DevRel next",
-    linkedinFollowers: "10K",
+    linkedinFollowers: "",
     achievements: [
       "Promotes open-source development.",
       "Encourages developer collaboration.",
@@ -235,7 +217,7 @@ const youtubers = [
     techLogos: ["GH"],
 
     imageUrl: "/karan_mv.jpg",
-    youtubeUrl: "https://youtube.com/@JamesK",
+    
     linkedinUrl: "https://www.linkedin.com/in/mvkaran/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 
   },
