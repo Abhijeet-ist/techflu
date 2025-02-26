@@ -13,7 +13,10 @@ const youtubers = [
       "Worked at Google, SAP Labs, and Cure.fit, contributing to scalable software solutions.",
       "Delivered TEDx talks on coding, career growth, and tech innovations."
     ],
-    techLogos: ["SAP", "G", "CF"],
+    techLogos: [
+      { src: "/logos/sap.webp", alt: "SAP Logo" },
+      { src: "/logos/go.jpeg", alt: "SAP Logo" }
+    ],
 
     imageUrl: "/mhd_f.jpg",
 
@@ -30,7 +33,9 @@ const youtubers = [
       "Specializes in scalable distributed systems.",
       "Actively mentors students and professionals.",
     ],
-    techLogos: ["G"],
+    techLogos: [
+      { src: "/logos/go.jpeg", alt: "G Logo" }
+    ],
 
     imageUrl: "/abhishek_kumar.jpg",
 
@@ -46,7 +51,9 @@ const youtubers = [
       "Actively contributes to the data engineering community through blogs and webinars.",
       "Mentors aspiring data professionals."
     ],
-    techLogos: ["MS"],
+    techLogos: [
+      { src: "/logos/ms.webp", alt: "ms Logo" }
+    ],
     imageUrl: "/sashank_mishra.jpg",
 
     linkedinUrl: "https://linkedin.com/in/emmaw",
@@ -62,7 +69,7 @@ const youtubers = [
       "Published ML Researcher",
       "Stanford CS Guest Lecturer",
     ],
-    techLogos: ["CS"],
+    techLogos: [],
 
     imageUrl: "/rocky_b.jpg",
 
@@ -78,7 +85,9 @@ const youtubers = [
       "Conducts workshops and seminars to educate students and professionals on Linux.",
       "Develops tutorials and guides to help beginners navigate Linux systems."
     ],
-    techLogos: ["LS"],
+    techLogos: [
+      { src: "/logos/li.webp", alt: "linux Logo" }
+    ],
 
     imageUrl: "/rahul_m.jpg",
 
@@ -94,7 +103,7 @@ const youtubers = [
       "Developed innovative remote work solutions for efficient team coordination.",
       "Leads a tech-driven startup, focusing on improving workplace productivity."
     ],
-    techLogos: ["CS"],
+    techLogos: [],
 
     imageUrl: "/deepak_g.jpg",
 
@@ -108,7 +117,9 @@ const youtubers = [
       "Conducts workshops and seminars on cloud technologies",
       "Contributes to open-source cloud projects."
     ],
-    techLogos: ["MS"],
+    techLogos: [
+      { src: "/logos/ms.webp", alt: "ms Logo" }
+    ],
 
     imageUrl: "/sirdhar.jpg",
     linkedinUrl: "https://www.linkedin.com/in/vivsridh/",
@@ -123,7 +134,7 @@ const youtubers = [
       "Supports entrepreneurs in scaling their businesses.",
       "Won the International Women in Open Source Academic Award (2020)",
     ],
-    techLogos: ["OS"],
+    techLogos: [],
 
     imageUrl: "/saumya_singh.jpg",
 
@@ -141,7 +152,9 @@ const youtubers = [
       "Provides educational content for programmers.",
       "Helps students and professionals with DSA & interview prep."
     ],
-    techLogos: ["GFG"],
+    techLogos: [
+      { src: "/logos/gfg.avif", alt: "gfg Logo" }
+    ],
 
     imageUrl: "/sandeep_j.jpg",
 
@@ -157,7 +170,7 @@ const youtubers = [
       "Content creator with 800K+ followers.",
       "Inspires and guides students in tech and career growth."
     ],
-    techLogos: ["PSM"],
+    techLogos: [  ],
 
     imageUrl: "/darika_j.jpg",
 
@@ -172,7 +185,7 @@ const youtubers = [
       "Guides students in career planning.",
       "Offers job preparation tips and mentorship."
     ],
-    techLogos: ["CC"],
+    techLogos: [],
 
     imageUrl: "/hina_a.jpg",
     linkedinUrl: "https://www.linkedin.com/in/careerwithhina?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -184,7 +197,7 @@ const youtubers = [
       "Raises awareness about mental well-being in tech.",
       "Provides resources and support for stress management."
     ],
-    techLogos: ["MHA"],
+    techLogos: [],
 
     imageUrl: "/deeksha_sm.jpg",
     linkedinUrl: "https://www.linkedin.com/in/deeksha26/",
@@ -198,7 +211,9 @@ const youtubers = [
       "Creates coding and interview prep content.",
       "Influences thousands through YouTube tutorials."
     ],
-    techLogos: ["YT"],
+    techLogos: [
+      { src: "/logos/yt.svg", alt: "yt Logo" }
+    ],
 
     imageUrl: "/nishant_c.jpg",
 
@@ -214,10 +229,12 @@ const youtubers = [
       "Encourages developer collaboration.",
       "Supports tech communities through GitHub initiatives."
     ],
-    techLogos: ["GH"],
+    techLogos: [
+      { src: "/logos/g.jpeg", alt: "linux Logo" }
+    ],
 
     imageUrl: "/karan_mv.jpg",
-    
+
     linkedinUrl: "https://www.linkedin.com/in/mvkaran/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 
   },
