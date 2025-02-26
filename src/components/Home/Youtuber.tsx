@@ -60,24 +60,7 @@ const youtubers = [
     linkedinUrl: "http://linkedin.com/in/sandeep-jain-/",
 
   },
-  {
-    name: "Abhishek Kumar",
-    role: "Engineer Manager at Google",
-    youtubeSubscribers: "",
-    linkedinFollowers: "60K",
-    achievements: [
-      "Leads two software engineering teams.",
-      "Specializes in scalable distributed systems.",
-      "Actively mentors students and professionals.",
-    ],
-    techLogos: ["G"],
-
-    imageUrl: "/abhishek_kumar.jpg",
-
-    // imageUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&q=80",
-    youtubeUrl: "https://youtube.com/@PriyaM",
-    linkedinUrl: "https://www.linkedin.com/in/abhishek0647/",
-  },
+  
   {
     name: "Raj Vikramaditya",
     role: "Software Engineer 3, Youtuber",

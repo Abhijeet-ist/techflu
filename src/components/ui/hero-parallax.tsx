@@ -108,9 +108,7 @@ export const Header = () => {
                 TECHFLUENCE <br /> GLIMPSE
             </h1>
             <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-                We build beautiful products with the latest technologies and frameworks.
-                We are a team of passionate developers and designers that love to build
-                amazing products.
+            At TechFluence, we bring innovation to life by exploring the latest technologies and groundbreaking ideas. As passionate students and aspiring entrepreneurs, we collaborate, learn, and engage with industry leaders to shape the future of tech. This event is all about inspiring creativity, building connections, and driving innovation through real-world insights and cutting-edge advancements.
             </p>
         </div>
     );
