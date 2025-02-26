@@ -29,7 +29,6 @@ const youtubers = [
     youtubeSubscribers: "",
     linkedinFollowers: "60K",
     achievements: [
-      "Leads two software engineering teams.",
       "Specializes in scalable distributed systems.",
       "Actively mentors students and professionals.",
     ],
