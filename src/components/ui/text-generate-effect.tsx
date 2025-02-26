@@ -59,6 +59,15 @@ export const TextGenerateEffect = ({
                                 </motion.span>
                             ))}
                         </motion.div>
+
+                        {/* IMAGE BELOW THE TEXT */}
+                        <div className="w-full mt-28 flex justify-center">
+                            <img
+                                src="/table.png"
+                                alt="Descriptive Alt Text"
+                                className="w-full max-w-md sm:max-w-lg md:max-w-6xl"
+                            />
+                        </div>
                     </motion.div>
 
                     {/* RIGHT SIDE - Locomotive Scroll Image */}
@@ -79,28 +88,9 @@ export const TextGenerateEffect = ({
                             />
                         </div>
                     </motion.div>
-                    
                 </div>
             </section>
             <HeroStats />
-
-            <style jsx>{`
-                @keyframes shine {
-                    0% { background-position: -200%; }
-                    100% { background-position: 200%; }
-                }
-                .animate-shine {
-                    background-size: 200% auto;
-                    animation: shine 3s linear infinite;
-                }
-                @keyframes borderPulse {
-                    0%, 100% { box-shadow: 0 0 10px rgba(255, 165, 0, 0.8); }
-                    50% { box-shadow: 0 0 20px rgba(255, 215, 0, 1); }
-                }
-                .animate-borderPulse {
-                    animation: borderPulse 2s infinite alternate;
-                }
-            `}</style>
         </div>
     );
 };
