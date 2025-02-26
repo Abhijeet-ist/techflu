@@ -168,7 +168,7 @@ const Loop = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 0.8 }}
         >
-          Discover what our community has achieved with our platform
+          Stories of Innovation and Impact
         </motion.p>
       </motion.div>
 
