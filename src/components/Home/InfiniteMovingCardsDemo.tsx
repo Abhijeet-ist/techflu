@@ -9,25 +9,25 @@ const Loop = () => {
 
   const items = [
     {
-      quote: "Techfluence 1 gave me the perfect platform to network and learn cutting-edge tech trends!",
+      quote: "TechFluence was an incredible experience! The speakers were inspiring, and I gained valuable insights into the tech industry.",
       name: "Abhijeet Kumar",
       title: "Techfluence 1",
       photo: "/loop/abhi.jpeg",
     },
     {
-      quote: "The hands-on workshops at Techfluence 1 boosted my coding skills and confidence.",
+      quote: "An amazing event that provided great networking opportunities! Meeting industry leaders was a game-changer for me.",
       name: "Rohit",
       title: "Techfluence 1",
       photo: "/loop/rohit.jpeg",
     },
     {
-      quote: "A game-changing event where I got to connect with industry leaders and fellow tech enthusiasts.",
+      quote: "Loved every session! The workshops were practical, and I walked away with new skills and motivation.",
       name: "Manisha Chaudhary",
       title: "Techfluence 1",
       photo: "/loop/manisha.jpeg",
     },
     {
-      quote: "Techfluence 1 was packed with insightful sessions that helped me improve my development strategies!",
+      quote: "TechFluence brought innovation and entrepreneurship to life! Can’t wait for the next edition.",
       name: "Somesh Biswal",
       title: "Techfluence 1",
       photo: "/loop/sanu.jpeg",
@@ -36,31 +36,31 @@ const Loop = () => {
 
   const items2 = [
     {
-      quote: "Techfluence 2 deepened my understanding of AI and modern web technologies.",
+      quote: "Attending TechFluence was one of the best decisions I made. The knowledge and connections I gained were priceless.",
       name: "Nisita Subramani",
       title: "Techfluence 2",
       photo: "/loop/nishita.jpeg",
     },
     {
-      quote: "The live coding challenges at Techfluence 2 helped me sharpen my problem-solving skills!",
+      quote: "The event was well-organized, and the guest speakers shared valuable industry insights that helped shape my career path.",
       name: "Punit Kumar",
       title: "Techfluence 2",
       photo: "/loop/punit.jpeg",
     },
     {
-      quote: "From expert talks to hands-on projects, Techfluence 2 was an incredible learning experience!",
+      quote: "I left TechFluence feeling inspired and empowered! Highly recommend it to any tech enthusiast.",
       name: "Himant Yadav",
       title: "Techfluence 2",
       photo: "/loop/himant.jpeg",
     },
     {
-      quote: "The networking opportunities at Techfluence 2 helped me connect with amazing mentors.",
+      quote: "A fantastic event with a perfect blend of learning, networking, and innovation! Will definitely attend again.",
       name: "Kushagra Chaudhary",
       title: "Techfluence 2",
       photo: "/loop/kushagra.jpeg",
     },
     {
-      quote: "Techfluence 2 introduced me to emerging trends in cloud computing and cybersecurity.",
+      quote: "The hands-on sessions and interactive talks made learning fun and engaging! Kudos to the organizers.",
       name: "Nainsi Sharma",
       title: "Techfluence 2",
       photo: "/loop/nainsi.jpeg",
@@ -69,25 +69,25 @@ const Loop = () => {
 
   const items3 = [
     {
-      quote: "Techfluence 3 was a game-changer! I built my first AI project with real-world applications.",
+      quote: "From AI to entrepreneurship, TechFluence covered it all! Truly an insightful experience.",
       name: "Subham Kumar",
       title: "Techfluence 3",
       photo: "/loop/subham.jpeg",
     },
     {
-      quote: "The hackathon at Techfluence 3 pushed my creativity and helped me develop my teamwork skills.",
+      quote: "TechFluence helped me connect with mentors who have guided me in my career journey. A must-attend event!",
       name: "Himant Yadav",
       title: "Techfluence 3",
       photo: "/loop/himant.jpeg",
     },
     {
-      quote: "Techfluence 3 gave me access to exclusive sessions on blockchain and Web3 technologies.",
+      quote: "It was amazing to see so many like-minded individuals passionate about technology and innovation!",
       name: "Sriti Sareen",
       title: "Techfluence 3",
       photo: "/loop/sriti.jpeg",
     },
     {
-      quote: "This event transformed my career path! I learned about new tech stacks and got inspired by industry leaders.",
+      quote: "A great opportunity to meet tech influencers and industry leaders who provided invaluable guidance.",
       name: "Radha Raman",
       title: "Techfluence 3",
       photo: "/loop/radha.jpeg",
