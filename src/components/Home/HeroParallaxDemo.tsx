@@ -7,93 +7,93 @@ export function HeroParallaxDemo() {
 }
 export const products = [
     {
-        title: "ph14",
+        // title: "ph14",
         link: "#",
         thumbnail:
             "/IMG_2061.JPG",
     },
     {
-        title: "ph13",
+        // title: "ph13",
         link: "#",
         thumbnail:
             "/IMG_2064.JPG",
     },
     {
-        title: "ph12",
+        // title: "ph12",
         link: "#",
         thumbnail:
-            "/IMG_2231.JPG",
+            "/IMG_5404.JPG",
     },
 
     {
-        title: "ph11",
+        // title: "ph11",
         link: "#",
         thumbnail:
             "/IMG_2275.JPG",
     },
     {
-        title: "ph10",
+        // title: "ph10",
         link: "#",
         thumbnail: "/IMG_2268.JPG",
     },
     {
-        title: "ph9",
+        // title: "ph9",
         link: "#",
         thumbnail:
             "/IMG_2266.JPG",
     },
 
     {
-        title: "ph8",
+        // title: "ph8",
         link: "#",
         thumbnail:
             "/IMG_2257.JPG",
     },
     {
-        title: "ph7",
+        // title: "ph7",
         link: "#",
         thumbnail:
-            "/IMG_2242.JPG",
+            "/IMG_2047.JPG",
     },
     {
-        title: "ph87",
+        // title: "ph87",
         link: "#",
         thumbnail:
             "/IMG_2231.JPG",
     },
     {
-        title: "ph6",
+        // title: "ph6",
         link: "#",
         thumbnail:
             "/IMG_9976.JPG",
     },
     {
-        title: "ph5",
+        // title: "ph5",
         link: "#",
         thumbnail:
             "/IMG_9972.JPG",
     },
 
     {
-        title: "ph4",
+        // title: "ph4",
         link: "#",
         thumbnail:
             "/IMG_2161.JPG",
     },
     {
-        title: "ph3",
+        // title: "ph3",
         link: "#",
         thumbnail:
             "/IMG_2171.JPG",
     },
     {
-        title: "ph2",
+        // title: "ph2",
         link: "#",
         thumbnail:
-            "/IMG_2162.JPG",
+            "/IMG_2219.JPG",
     },
     {
-        title: "ph1",
+        // title: "ph1",
         link: "#",
         thumbnail:
             "/IMG_2242.JPG",
