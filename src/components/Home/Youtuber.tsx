@@ -15,7 +15,8 @@ const youtubers = [
     ],
     techLogos: [
       { src: "/logos/sap.webp", alt: "SAP Logo" },
-      { src: "/logos/go.jpeg", alt: "SAP Logo" }
+      { src: "/logos/go.jpeg", alt: "G Logo" },
+      { src: "/logos/cf.jpeg", alt: "cf Logo" }
     ],
 
     imageUrl: "/mhd_f.jpg",
@@ -69,7 +70,9 @@ const youtubers = [
       "Published ML Researcher",
       "Stanford CS Guest Lecturer",
     ],
-    techLogos: [],
+    techLogos: [
+      { src: "/logos/cs.webp", alt: "cs Logo" }
+    ],
 
     imageUrl: "/rocky_b.jpg",
 
@@ -103,11 +106,11 @@ const youtubers = [
       "Developed innovative remote work solutions for efficient team coordination.",
       "Leads a tech-driven startup, focusing on improving workplace productivity."
     ],
-    techLogos: [],
+    techLogos: [
+      { src: "/logos/cs.webp", alt: "cs Logo" }
+    ],
 
     imageUrl: "/deepak_g.jpg",
-
-    linkedinUrl: "https://www.linkedin.com/in/deepak-goyal-1511ab7/",
   },
   {
     name: "Vivek Sridhar",
@@ -122,7 +125,6 @@ const youtubers = [
     ],
 
     imageUrl: "/sirdhar.jpg",
-    linkedinUrl: "https://www.linkedin.com/in/vivsridh/",
   },
   {
     name: "Saumya Singh",
@@ -144,7 +146,7 @@ const youtubers = [
 
   {
     name: "Sandeep Jain",
-    role: "Founder, CEO of GFG, Public Speaker",
+    role: "Founder, CEO of GFG",
     youtubeSubscribers: "936K",
     linkedinFollowers: "329K",
     achievements: [
@@ -197,10 +199,11 @@ const youtubers = [
       "Raises awareness about mental well-being in tech.",
       "Provides resources and support for stress management."
     ],
-    techLogos: [],
+    techLogos: [
+      { src: "/logos/na.webp", alt: "na Logo" }
+    ],
 
     imageUrl: "/deeksha_sm.jpg",
-    linkedinUrl: "https://www.linkedin.com/in/deeksha26/",
   },
   {
     name: "Nishant Chahar",
@@ -235,7 +238,6 @@ const youtubers = [
 
     imageUrl: "/karan_mv.jpg",
 
-    linkedinUrl: "https://www.linkedin.com/in/mvkaran/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 
   },
 ]
