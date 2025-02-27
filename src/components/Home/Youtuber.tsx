@@ -4,7 +4,7 @@ import TechYoutuberCard from "../ui/TechYoutuberCard"
 
 const youtubers = [
   {
-    name: "MOHAMMAD FARAZ",
+    name: "MOHAMMAD FRAZ",
     role: "Software Engineer, YouTuber",
     youtubeSubscribers: "496K",
     linkedinFollowers: "254K",
@@ -43,7 +43,7 @@ const youtubers = [
     linkedinUrl: "https://www.linkedin.com/in/abhishek0647/",
   },
   {
-    name: "Sashank Mishra",
+    name: "Shashank Mishra",
     role: "Data Engineer, YouTuber, Public Speaker",
     youtubeSubscribers: "178K",
     linkedinFollowers: "177K",
